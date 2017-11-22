@@ -1,0 +1,128 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2345678901234567890123456789012345678901234567890123456789012345678901234567890
+%        1         2         3         4         5         6         7         8
+%
+%\documentclass[letterpaper, 10 pt, conference]{ieeeconf}  % Comment this line out if you need a4paper
+%
+\documentclass[a4paper, 10pt, conference]{ieeeconf}      % Use this line for a4 paper
+%
+%\IEEEoverridecommandlockouts                              % This command is only needed if 
+                                                          % you want to use the \thanks command
+%
+\overrideIEEEmargins                                      % Needed to meet printer requirements.
+%
+% See the \addtolength command later in the file to balance the column lengths
+% on the last page of the document
+%
+\usepackage{graphicx} % for pdf, bitmapped graphics files
+%\usepackage{hyperref}
+%\hypersetup{colorlinks,urlcolor=blue,linkcolor=blue}
+%
+\usepackage{epstopdf}
+%\usepackage{mathptmx} % assumes new font selection scheme installed
+%\usepackage{times} % assumes new font selection scheme installed
+\usepackage{amsmath} % assumes amsmath package installed
+\usepackage{amssymb}  % assumes amsmath package installed
+
+\usepackage{graphicx}
+%\usepackage{subfig}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{array}
+\usepackage[space]{cite}
+
+%\usepackage[hidelinks]{hyperref}
+\usepackage[colorlinks, linkcolor = black, citecolor = black, filecolor = black, urlcolor = blue]{hyperref}
+
+
+\usepackage{tikz}
+
+\newcommand\encircle[1]{%
+	\tikz[baseline=(X.base)] 
+	\node (X) [draw, shape=circle, inner sep=0.5pt] {#1};}
+
+
+
+
+
+%\DeclarePairedDelimiter\abs{\lvert}{\rvert}%
+%\DeclarePairedDelimiter\norm{\lVert}{\rVert}%
+\DeclareMathOperator*{\argmin}{argmin}
+\DeclareMathOperator*{\argmax}{argmax}
+\DeclareMathOperator*{\sgn}{sgn}
+\newcommand{\specialcell}[2][c]{%
+	\begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+
+\renewcommand{\citedash}{--}
+
+
+\newcommand{\etal}{~\textit{et al.}}
+%
+\title{\bf {\LARGE Modern Intelligent Hand Prosthetics} \\ 
+{\normalsize H$^2$T-Seminar: Humanoid Robotics, WS 16/17}}
+\author{Tobias Stocker, Pascal Weiner and Tamim Asfour \\ High Performance Humanoid Technologies \\ Institute for Anthropomatics and Robotics \\ Karlsruhe Institute of Technology \\
+\url{http://www.humanoids.kit.edu}}
+
+
+%
+%
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+Hand Prosthetics.
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+
+\vspace{1cm}
+
+\begin{tabular}{l|p{2cm}|p{1cm}|p{1.2cm}|p{2.2cm}|p{1.2cm}|p{1.2cm}|p{1.2cm}|p{2cm}}
+
+Name & Developer & Year & Mass(g) & Size(mm) length x width x thickness & Number of joints & Degrees of freedom & Number of \newline actuators & Actuator type\\
+\hline
+MyHand & SSSA & 2017 & 478 & 200 x 84 x 56 & 10 & 4 & 3 & Brushless DC Motor\\
+\hline
+Asto Hand v.1 & Diponegoro University & 2016 & 261 & 180 x 85 x 50 & 10 & 5 & 5 & DC Motor\\
+\hline
+Bionic Hand & Atasoy et al. & 2016 & - & - & 24 & 24 & 13 & Brushless DC Motor\\
+\hline
+X-Hand & Xiong et al. & 2016 & - & human hand size & 16 & - & 4 & DC Motor\\
+\hline
+Six-DOF-Hand & Krausz et al. & 2016 & 584 & 202 x 99 x 61 & 10 & 6 & 6 & DC Motor\\
+\hline
+SoftHand Pro-D & Piazza et al. & 2016 & - & - & 19 & 19 & 1 & DC Motor\\
+
+\end{tabular}
+
+\vspace{3cm}
+
+\begin{tabular}{l|p{1.2cm}|p{1cm}|p{1.5cm}|p{2cm}|p{2cm}|p{1.2cm}|p{1.5cm}|p{2cm}}
+
+Name & Number of Fingers & Joints per Finger & Actuators integrated & Transmission system & Sensor system & Gripping force & Individual Finger Force & Joint Speed/Closing Time\\
+\hline
+MyHand & 5 & 1/2 & Yes & Geneva drive & EMG/automatic grasp control & - & ~31N/~12N & 160-250 $^\circ/s$\\
+\hline
+Asto Hand v.1 & 5 & 2/2 & Yes & tendon spring & EMG & - & - & -\\
+\hline
+Bionic Hand & 5 & 3/3 & No & tendons & EMG & - & - & -\\
+\hline
+X-Hand & 5 & 3/3 & Yes & tendons & - & 12.1N & - & 1.2s\\
+\hline
+Six-Dof-Hand & 5 & 2/2 & Yes & gears/belts & EMG & - & 4.12N & 2.24 $rads/s$\\
+\hline
+SoftHand Pro-D & 5 & 3/3 & Yes & tendons & EMG & \\
+
+
+\end{tabular}
+
+\bibliographystyle{./IEEEtran}
+\nocite{*}
+\bibliography{./Ausarbeitung}
+%
+\end{document}
+%

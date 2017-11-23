@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.13)  22 NOV 2017 12:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.13)  23 NOV 2017 13:36
 entering extended mode
 **./Ausarbeitung.tex
 (Ausarbeitung.tex
@@ -745,118 +745,111 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 71.
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 71.
+ [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 []|\OT1/ptm/m/n/10 Size(mm)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 []|\OT1/ptm/m/n/10 Number
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 []|\OT1/ptm/m/n/10 Degrees
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 \OT1/ptm/m/n/10 of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 []|\OT1/ptm/m/n/10 Number
  []
 
 
-Overfull \hbox (1.95624pt too wide) in paragraph at lines 86--86
+Overfull \hbox (1.95624pt too wide) in paragraph at lines 96--96
 \OT1/ptm/m/n/10 actuators| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
 []|\OT1/ptm/m/n/10 Diponegoro
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
 []|\OT1/ptm/m/n/10 human hand
  []
 
 
-Overfull \hbox (283.18402pt too wide) in paragraph at lines 84--101
+Overfull \hbox (283.18402pt too wide) in paragraph at lines 94--113
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 []|\OT1/ptm/m/n/10 Number
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 \OT1/ptm/m/n/10 of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 []|\OT1/ptm/m/n/10 Joints
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 \OT1/ptm/m/n/10 per
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 []|\OT1/ptm/m/n/10 Actuators
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 []|\OT1/ptm/m/n/10 Transmission
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 []|\OT1/ptm/m/n/10 Sensor
  []
 
 
-Overfull \hbox (1.96649pt too wide) in paragraph at lines 106--106
+Overfull \hbox (1.96649pt too wide) in paragraph at lines 118--118
 []|\OT1/ptm/m/n/10 Gripping
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 []|\OT1/ptm/m/n/10 Individual
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 \OT1/ptm/m/n/10 Fin-ger
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
-[]|\OT1/ptm/m/n/10 Joint
- []
-
-
-Overfull \hbox (1.4338pt too wide) in paragraph at lines 106--107
-\OT1/ptm/m/n/10 Speed/Closing
- []
-
-
-Overfull \hbox (7.53363pt too wide) in paragraph at lines 108--108
+Overfull \hbox (7.53363pt too wide) in paragraph at lines 120--120
 []|\OT1/ptm/m/n/10 EMG/automatic
  []
 
 
-Overfull \hbox (294.56537pt too wide) in paragraph at lines 104--122
+Overfull \hbox (294.56537pt too wide) in paragraph at lines 116--136
 [][] 
  []
 
@@ -872,27 +865,26 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the US letter (8.5in X 11in) paper size.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
-[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
-
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
+[2
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
  (Ausarbeitung.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 127.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 141.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 141.
 Package rerunfilecheck Info: File `Ausarbeitung.out' has not changed.
-(rerunfilecheck)             Checksum: 1DB6ACF0CA858A323D5862A2C7FCFE6D;48.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 127.
+(rerunfilecheck)             Checksum: F9DA48E5BFCAEC585E7F7A6FAED4863C;99.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 141.
  ) 
 Here is how much of TeX's memory you used:
- 17614 strings out of 493334
- 328312 string characters out of 3139248
- 412456 words of memory out of 3000000
- 20842 multiletter control sequences out of 15000+200000
+ 17617 strings out of 493334
+ 328338 string characters out of 3139248
+ 414455 words of memory out of 3000000
+ 20843 multiletter control sequences out of 15000+200000
  38968 words of font info for 87 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,54p,396b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,11n,54p,1051b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts
@@ -900,9 +892,9 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX
 w/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Ausarbeitung.pdf (1 page, 75156 bytes).
+Output written on Ausarbeitung.pdf (2 pages, 78385 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 PDF objects out of 1000 (max. 8388607)
+ 5 named destinations out of 1000 (max. 500000)
+ 29 words of extra memory for PDF output out of 10000 (max. 10000000)
 

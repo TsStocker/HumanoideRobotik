@@ -58,7 +58,7 @@
 
 \newcommand{\etal}{~\textit{et al.}}
 %
-\title{\bf {\LARGE Modern Intelligent Hand Prosthetics} \\ 
+\title{\bf {\LARGE Modern Intelligent Hand Prostheses} \\ 
 {\normalsize H$^2$T-Seminar: Humanoid Robotics, WS 16/17}}
 \author{Tobias Stocker, Pascal Weiner and Tamim Asfour \\ High Performance Humanoid Technologies \\ Institute for Anthropomatics and Robotics \\ Karlsruhe Institute of Technology \\
 \url{http://www.humanoids.kit.edu}}
@@ -73,19 +73,29 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
-Hand Prosthetics.
+Hand Prostheses.
 \end{abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
 
-\vspace{1cm}
+\section{Hand Prostheses}
+
+The MyHand was developed by the BioRobotics Institute of the SSSA and published in 2016. The goal was to design a dexterous lightweight hand prosthesis as an alternative to clinically available multi-grasp prostheses while using low-cost manufacturing processes and components wherever possible. To reduce complexity the hand carries three identical 8W brushless DC motors, one for the thumb, one for the index finger and one for the other three fingers. The functional components are hold together by a thin plate surrounded by a 3D-printed metallic mainframe and plastic covers for protection. The hand contains a sensory system for automatic grasp control and makes a future integration of a sensory feedback system possible, e.g. touch sensors in the fingertips. The motors are controlled by the master microcontroller which also acquires the EMG singals and communicates with the external world. The master microcontroller gains information about the actual speed and position of the motors from the slave microcontroller.\\
+The force exerted at the fingertips is on average 31.4 N for the thumb, 11.7 N for the index finger and between 9.4 N and 14.6 for the other three fingers. The flexion/extension speed is 160 $^\circ$/s for the thumb and 170 $^\circ$/s for the other fingers, while the speed of the thumb while switching from the opposition to the reposition state can reach 250 $^\circ$/s. The time needed to complete a grasp starting from the rest position is 270 ms for a lateral grasp and 370 ms for a cylindrical grasp.
+
+
+\newpage
+
+.
+
+\newpage
 
 \begin{tabular}{l|p{2cm}|p{1cm}|p{1.2cm}|p{2.2cm}|p{1.2cm}|p{1.2cm}|p{1.2cm}|p{2cm}}
 
 Name & Developer & Year & Mass(g) & Size(mm) length x width x thickness & Number of joints & Degrees of freedom & Number of \newline actuators & Actuator type\\
 \hline
-MyHand & SSSA & 2017 & 478 & 200 x 84 x 56 & 10 & 4 & 3 & Brushless DC Motor\\
+MyHand & SSSA & 2016 & 478 & 200 x 84 x 56 & 10 & 4 & 3 & Brushless DC Motor\\
 \hline
 Asto Hand v.1 & Diponegoro University & 2016 & 261 & 180 x 85 x 50 & 10 & 5 & 5 & DC Motor\\
 \hline
@@ -96,6 +106,8 @@ X-Hand & Xiong et al. & 2016 & - & human hand size & 16 & - & 4 & DC Motor\\
 Six-DOF-Hand & Krausz et al. & 2016 & 584 & 202 x 99 x 61 & 10 & 6 & 6 & DC Motor\\
 \hline
 SoftHand Pro-D & Piazza et al. & 2016 & - & - & 19 & 19 & 1 & DC Motor\\
+\hline
+MORA Hap-2 & Gopura et al. & 2017 & 250 & 95 (fingers)\newline x 83 x 25 & 14 & 11 & 4 & -\\ 
 
 \end{tabular}
 
@@ -103,9 +115,9 @@ SoftHand Pro-D & Piazza et al. & 2016 & - & - & 19 & 19 & 1 & DC Motor\\
 
 \begin{tabular}{l|p{1.2cm}|p{1cm}|p{1.5cm}|p{2cm}|p{2cm}|p{1.2cm}|p{1.5cm}|p{2cm}}
 
-Name & Number of Fingers & Joints per Finger & Actuators integrated & Transmission system & Sensor system & Gripping force & Individual Finger Force & Joint Speed/Closing Time\\
+Name & Number of Fingers & Joints per Finger & Actuators integrated & Transmission system & Sensor system & Gripping force & Individual Finger Force & Joint Speed / Closing Time\\
 \hline
-MyHand & 5 & 1/2 & Yes & Geneva drive & EMG/automatic grasp control & - & ~31N/~12N & 160-250 $^\circ/s$\\
+MyHand & 5 & 1/2 & Yes & Geneva drive & EMG/automatic grasp control & - & ~31N/~12N & 160-250 $^\circ$/s\\
 \hline
 Asto Hand v.1 & 5 & 2/2 & Yes & tendon spring & EMG & - & - & -\\
 \hline
@@ -116,6 +128,8 @@ X-Hand & 5 & 3/3 & Yes & tendons & - & 12.1N & - & 1.2s\\
 Six-Dof-Hand & 5 & 2/2 & Yes & gears/belts & EMG & - & 4.12N & 2.24 $rads/s$\\
 \hline
 SoftHand Pro-D & 5 & 3/3 & Yes & tendons & EMG & - & - & -\\
+\hline
+MORA Hap-2 & 5 & 2/3 & Yes & four-bar\newline linkage & - & - & - & -\\
 
 
 \end{tabular}

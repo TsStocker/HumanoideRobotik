@@ -1,0 +1,104 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{#1}
+\csname url@rmstyle\endcsname
+\providecommand{\newblock}{\relax}
+\providecommand{\bibinfo}[2]{#2}
+\providecommand\BIBentrySTDinterwordspacing{\spaceskip=0pt\relax}
+\providecommand\BIBentryALTinterwordstretchfactor{4}
+\providecommand\BIBentryALTinterwordspacing{\spaceskip=\fontdimen2\font plus
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
+\providecommand\BIBforeignlanguage[2]{{%
+\expandafter\ifx\csname l@#1\endcsname\relax
+\typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
+\typeout{** loaded for the language `#1'. Using the pattern for}%
+\typeout{** the default language instead.}%
+\else
+\language=\csname l@#1\endcsname
+\fi
+#2}}
+
+\bibitem{myhand}
+M.~Controzzi, F.~Clemente, D.~Barone, A.~Ghionzoli, and C.~Cipriani, ``The
+  sssa-myhand: A dexterous lightweight myoelectric hand prosthesis,''
+  \emph{IEEE Transactions on Neural Systems and Rehabilitation Engineering},
+  vol.~25, no.~5, pp. 459--468, May 2017.
+
+\bibitem{astohand}
+M.~Ariyanto, Munadi, G.~D. Haryadi, R.~Ismail, J.~A. Pakpahan, and K.~A.
+  Mustaqim, ``A low cost anthropomorphic prosthetic hand using dc micro metal
+  gear motor,'' in \emph{2016 3rd International Conference on Information
+  Technology, Computer, and Electrical Engineering (ICITACEE)}, Oct 2016, pp.
+  42--46.
+
+\bibitem{bionichand}
+A.~Atasoy, E.~Kaya, E.~Toptas, S.~Kuchimov, E.~Kaplanoglu, and M.~Ozkan, ``24
+  dof emg controlled hybrid actuated prosthetic hand,'' in \emph{2016 38th
+  Annual International Conference of the IEEE Engineering in Medicine and
+  Biology Society (EMBC)}, Aug 2016, pp. 5059--5062.
+
+\bibitem{xhand}
+C.~H. Xiong, W.~R. Chen, B.~Y. Sun, M.~J. Liu, S.~G. Yue, and W.~B. Chen,
+  ``Design and implementation of an anthropomorphic hand for replicating human
+  grasping functions,'' \emph{IEEE Transactions on Robotics}, vol.~32, no.~3,
+  pp. 652--671, June 2016.
+
+\bibitem{6dofhand}
+N.~E. Krausz, R.~A.~L. Rorrer, and R.~F. f.~Weir, ``Design and fabrication of a
+  six degree-of-freedom open source hand,'' \emph{IEEE Transactions on Neural
+  Systems and Rehabilitation Engineering}, vol.~24, no.~5, pp. 562--572, May
+  2016.
+
+\bibitem{softhand}
+C.~Piazza, C.~D. Santina, M.~Catalano, G.~Grioli, M.~Garabini, and A.~Bicchi,
+  ``Softhand pro-d: Matching dynamic content of natural user commands with hand
+  embodiment for enhanced prosthesis control,'' in \emph{2016 IEEE
+  International Conference on Robotics and Automation (ICRA)}, May 2016, pp.
+  3516--3523.
+
+\bibitem{pisahand}
+\BIBentryALTinterwordspacing
+M.~Catalano, G.~Grioli, E.~Farnioli, A.~Serio, C.~Piazza, and A.~Bicchi,
+  ``Adaptive synergies for the design and control of the pisa/iit softhand,''
+  \emph{The International Journal of Robotics Research}, vol.~33, no.~5, pp.
+  768--782, 2014. [Online]. Available:
+  \url{https://doi.org/10.1177/0278364913518998}
+\BIBentrySTDinterwordspacing
+
+\bibitem{morahap2}
+R.~A. R.~C. Gopura, D.~S.~V. Bandara, N.~P.~A. Gunasekera, V.~H. Hapuarachchi,
+  and B.~S. Ariyarathna, ``A prosthetic hand with self-adaptive fingers,'' in
+  \emph{2017 3rd International Conference on Control, Automation and Robotics
+  (ICCAR)}, April 2017, pp. 269--274.
+
+\bibitem{tact}
+P.~Slade, A.~Akhtar, M.~Nguyen, and T.~Bretl, ``Tact: Design and performance of
+  an open-source, affordable, myoelectric prosthetic hand,'' in \emph{2015 IEEE
+  International Conference on Robotics and Automation (ICRA)}, May 2015, pp.
+  6451--6456.
+
+\bibitem{uompro}
+K.~Nisal, I.~Ruhunge, J.~Subodha, C.~J. Perera, and T.~D. Lalitharatne,
+  ``Design, implementation and performance validation of uompro artificial
+  hand: Towards affordable hand prostheses,'' in \emph{2017 39th Annual
+  International Conference of the IEEE Engineering in Medicine and Biology
+  Society (EMBC)}, July 2017, pp. 909--912.
+
+\bibitem{bennett}
+D.~A. Bennett, S.~A. Dalley, D.~Truex, and M.~Goldfarb, ``A multigrasp hand
+  prosthesis for providing precision and conformal grasps,'' \emph{IEEE/ASME
+  Transactions on Mechatronics}, vol.~20, no.~4, pp. 1697--1704, Aug 2015.
+
+\bibitem{zhang}
+T.~Zhang, X.~Q. Wang, L.~Jiang, X.~Wu, W.~Feng, D.~Zhou, and H.~Liu,
+  ``Biomechatronic design and control of an anthropomorphic artificial hand for
+  prosthetic applications,'' \emph{Robotica}, vol.~34, no.~10, pp. 2291--2308,
+  2016.
+
+\bibitem{mio}
+R.~Mio, B.~Villegas, L.~Ccorimanya, K.~M. Flores, G.~Salazar, and D.~Elías,
+  ``Development and assessment of a powered 3d-printed prosthetic hand for
+  transmetacarpal amputees,'' in \emph{2017 3rd International Conference on
+  Control, Automation and Robotics (ICCAR)}, April 2017, pp. 85--90.
+
+\end{thebibliography}

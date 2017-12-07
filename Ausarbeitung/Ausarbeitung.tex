@@ -59,7 +59,7 @@
 \newcommand{\etal}{~\textit{et al.}}
 %
 \title{\bf {\LARGE Modern Intelligent Hand Prostheses} \\ 
-{\normalsize H$^2$T-Seminar: Humanoid Robotics, WS 16/17}}
+{\normalsize H$^2$T-Seminar: Humanoid Robotics, WS 17/18}}
 \author{Tobias Stocker, Pascal Weiner and Tamim Asfour \\ High Performance Humanoid Technologies \\ Institute for Anthropomatics and Robotics \\ Karlsruhe Institute of Technology \\
 \url{http://www.humanoids.kit.edu}}
 
@@ -84,45 +84,62 @@ In this paper different hand prostheses which were published in the last few yea
 
 \subsection{SSSA-MyHand}
 
-The MyHand was developed by the BioRobotics Institute of the SSSA and published in 2016. The goal was to design a dexterous lightweight hand prosthesis as an alternative to clinically available multi-grasp prostheses while using low-cost manufacturing processes and components wherever possible. To reduce complexity the hand carries three identical 8W brushless DC motors, one for the thumb, one for the index finger and one for the other three fingers. The functional components are hold together by a thin plate surrounded by a 3D-printed metallic mainframe and plastic covers for protection. The hand contains a sensory system for automatic grasp control and makes a future integration of a sensory feedback system possible, e.g. touch sensors in the fingertips. The motors are controlled by the master microcontroller which also acquires the EMG singals and communicates with the external world. The master microcontroller gains information about the actual speed and position of the motors from the slave microcontroller.\\
+The MyHand~\cite{myhand} was developed by the BioRobotics Institute of the SSSA and published in 2016. The goal was to design a dexterous lightweight hand prosthesis as an alternative to clinically available multi-grasp prostheses while using low-cost manufacturing processes and components wherever possible. To reduce complexity the hand carries three identical 8W brushless DC motors, one for the thumb, one for the index finger and one for the other three fingers. The functional components are hold together by a thin plate surrounded by a 3D-printed metallic mainframe and plastic covers for protection. The hand contains a sensory system for automatic grasp control and makes a future integration of a sensory feedback system possible, e.g. touch sensors in the fingertips. The motors are controlled by the master microcontroller which also acquires the EMG singals and communicates with the external world. The master microcontroller gains information about the actual speed and position of the motors from the slave microcontroller.\\
 The force exerted at the fingertips is on average 31.4 N for the thumb, 11.7 N for the index finger and between 9.4 N and 14.6 for the other three fingers. The flexion/extension speed is 160 $^\circ$/s for the thumb and 170 $^\circ$/s for the other fingers, while the speed of the thumb while switching from the opposition to the reposition state can reach 250 $^\circ$/s. The time needed to complete a grasp starting from the rest position is 270 ms for a lateral grasp and 370 ms for a cylindrical grasp.
 
 
 \subsection{AstoHand v.1}
 
-The AstoHand v.1 was developed by the Department of Mechanical Engineering of the Diponegoro University. They focused on designing a low-cost anthropomorphic prosthetic hand which uses DC micro metal gear motors and 3D-printed material to make it lightweight. The developed hand has five degrees of freedom and each finger contains two joints and one motor. The five DoFs were chosen because they are sufficient for the most important activities of daily living while reducing the complexity of the mechanical design and manufacturing costs. For the movement of the fingers the motors are connected to the joints via a tendon-spring mechanism. The five DC motors are placed in the palm, an Arduino Nano microcontroller and driver motor are placed in the back cover and two batteries, with voltage of 3.7 V and capacity of 2425 mAh, are placed in the socket of the hand.
+The AstoHand v.1~\cite{astohand} was developed by the Department of Mechanical Engineering of the Diponegoro University. They focused on designing a low-cost anthropomorphic prosthetic hand which uses DC micro metal gear motors and 3D-printed material to make it lightweight. The developed hand has five degrees of freedom and each finger contains two joints and one motor. The five DoFs were chosen because they are sufficient for the most important activities of daily living while reducing the complexity of the mechanical design and manufacturing costs. For the movement of the fingers the motors are connected to the joints via a tendon-spring mechanism. The five DC motors are placed in the palm, an Arduino Nano microcontroller and driver motor are placed in the back cover and two batteries, with voltage of 3.7 V and capacity of 2425 mAh, are placed in the socket of the hand.
 
 \subsection{Bionic Hand}
 
-The Bionic Hand is a hybrid actuated prosthetic hand with 24 DoFs developed by the Department of Biomedical Engineering of the Bogazici University and the Department of Mechatronic Engineering of the Marmara University. For the design of the prosthesis the human hand is used as reference with all its joints and connections. Neural Networks are used to classify the EMG signals as well as to control the actuators which include brushless DC motors and Shape Memory Alloy (SMA) actuators. The two types of actuators are used to imitate extrinsic and intrinsic muscles and to emulate the antagonistic contraction. Overall there are 13 motors placed in the forearm, four motor pairs for the flexion and extension of the four fingers, two motors for the flexion-extension and abduction-adduction of the wrist and three motors for controlling the thumb. The SMA actuators are placed on the sides of the metacarpals and are used for the abduction-adduction of the fingers. While they are slow and not strong they are good to imitate the rather weak intrinsic muscles because of their low weight and small size.
+The Bionic Hand~\cite{bionichand} is a hybrid actuated prosthetic hand with 24 DoFs developed by the Department of Biomedical Engineering of the Bogazici University and the Department of Mechatronic Engineering of the Marmara University. For the design of the prosthesis the human hand is used as reference with all its joints and connections. Neural Networks are used to classify the EMG signals as well as to control the actuators which include brushless DC motors and Shape Memory Alloy (SMA) actuators. The two types of actuators are used to imitate extrinsic and intrinsic muscles and to emulate the antagonistic contraction. Overall there are 13 motors placed in the forearm, four motor pairs for the flexion and extension of the four fingers, two motors for the flexion-extension and abduction-adduction of the wrist and three motors for controlling the thumb. The SMA actuators are placed on the sides of the metacarpals and are used for the abduction-adduction of the fingers. While they are slow and not strong they are good to imitate the rather weak intrinsic muscles because of their low weight and small size.
 
 \subsection{X-Hand}
 
-The X-Hand is an anthropomorphic prosthetic hand with size similar to the human hand designed by the Institute of Rehabilitation and Medical Robotics of the Huazhong University of Science and Technology. The goal was to design a hand prosthesis which fulfills the following three important features. The hand should have anthropomorphic grasp functions to cover the grasping activities of daily living, few actuators to reduce complexity and easier control and a compact structure with integrated hardware for a flexible installation and convenient wearing for the user.\\
+The X-Hand~\cite{xhand} is an anthropomorphic prosthetic hand with size similar to the human hand designed by the Institute of Rehabilitation and Medical Robotics of the Huazhong University of Science and Technology. The goal was to design a hand prosthesis which fulfills the following three important features. The hand should have anthropomorphic grasp functions to cover the grasping activities of daily living, few actuators to reduce complexity and easier control and a compact structure with integrated hardware for a flexible installation and convenient wearing for the user.\\
 The thumb mechanism of the X-Hand is designed independently of the mechanism of the other fingers to enable the thumb to move independently during grasping like in the human hand. Two DC motors are used for the kinematic transmission system of the four fingers to generate anthropomorphic grasping movements and two DC motors are used for the movement of the thumb. The time needed to close the hand from open is 1.2 s. The grasping force measured during contact with a cylinder between thumb and index finger is 12.1 N. This grasping force is not limited due to the hand construction but rather by the motor size.
 
-\newpage
-.
+\subsection{Six-DOF-Hand}
+
+The Six-DOF-Hand~\cite{6dofhand} is a hand prosthesis developed by the Mechanical Engineering Department of the University of Colorado-Denver. One of the major goals of the project was to design a hand which is inexpensive and also open source. The hand is able to do any of the standard grasps (e.g. tip, palmar, lateral, cylindrical) as well as more complex tasks with independent finger movement. To keep the prosthetic hand low-cost a design with six DOFs was chosen, which includes two actuators for the thumb, for performing flexion/extension and rotation, and one actuator each for the other fingers. The metacarpophalangeal (MCP) and proximal interphalangeal (PIP) joints are coupled through a belt system, while the distal interphalangeal (DIP) joint is fixed on the fingers. The actuators include encoders to allow motor position feedback and testing and the fingershells of the hand contain internal space to leave the possibility of embedding force sensing elements and flex-sensors open.
+
+\subsection{SoftHand Pro-D}
+
+The SoftHand Pro-D~\cite{softhand} is a prosthetic hand developed by the University of Pisa and the Instituto Italiano di Tecnologia whose design evolves from the Pisa/IIT SoftHand~\cite{pisahand}. The hand is highly underactuated by having 19 DOFs while only a single actuator. The hand consists of passive damping components and the desired motion is accomplished with the help of dynamic synergies. It can move in two different synergistic directions of motion to perform pinch grasps as well as power grasps. The proposed approach tries to exploit the frequency content of the EMG signals in an innovative and natural way, that means the speed of the muscle contraction is associated with the speed of the synergy. The single DC motor is located in the dorsal side of the palm and integrated in a support structure. The damping element lies parallel to the motor and is connected with a compression spring. Only the thumb is directly connected to the damper through a tendon.
+
 \newpage
 
 \begin{tabular}{l|p{2cm}|p{1cm}|p{1.2cm}|p{2.2cm}|p{1.2cm}|p{1.2cm}|p{1.2cm}|p{2cm}}
 
 Name & Developer & Year & Mass(g) & Size(mm) length x width x thickness & Number of joints & Degrees of freedom & Number of \newline actuators & Actuator type\\
 \hline
-MyHand & SSSA & 2016 & 478 & 200 x 84 x 56 & 10 & 4 & 3 & Brushless DC Motor\\
+MyHand~\cite{myhand} & SSSA & 2016 & 478 & 200 x 84 x 56 & 10 & 4 & 3 & Brushless DC Motor\\
 \hline
-Asto Hand v.1 & Diponegoro University & 2016 & 261 & 180 x 85 x 50 & 10 & 5 & 5 & DC Motor\\
+AstoHand v.1~\cite{astohand} & Diponegoro University & 2016 & 261 & 180 x 85 x 50 & 10 & 5 & 5 & DC Motor\\
 \hline
-Bionic Hand & Atasoy et al. & 2016 & - & - & 24 & 24 & 13 & Brushless DC Motor\\
+Bionic Hand~\cite{bionichand} & Atasoy et al. & 2016 & - & - & 24 & 24 & 13 & Brushless DC Motor\\
 \hline
-X-Hand & Xiong et al. & 2016 & - & human hand size & 16 & - & 4 & DC Motor\\
+X-Hand~\cite{xhand}& Xiong et al. & 2016 & - & human hand size & 16 & - & 4 & DC Motor\\
 \hline
-Six-DOF-Hand & Krausz et al. & 2016 & 584 & 202 x 99 x 61 & 10 & 6 & 6 & DC Motor\\
+Six-DOF-Hand~\cite{6dofhand} & Krausz et al. & 2016 & 584 & 202 x 99 x 61 & 10 & 6 & 6 & DC Motor\\
 \hline
-SoftHand Pro-D & Piazza et al. & 2016 & - & - & 19 & 19 & 1 & DC Motor\\
+SoftHand Pro-D~\cite{softhand} & Piazza et al. & 2016 & - & - & 19 & 19 & 1 & DC Motor\\
 \hline
-MORA Hap-2 & Gopura et al. & 2017 & 250 & 95 (fingers)\newline x 83 x 25 & 14 & 11 & 4 & -\\
-Tact & Slade et al. & 2015 & 350 & 200 x 98 x 27 & 11 & 6 & 6 & DC Motor\\
+MORA Hap-2~\cite{morahap2} & Gopura et al. & 2017 & 250 & 95 (fingers)\newline x 83 x 25 & 14 & 11 & 4 & -\\
+\hline
+Tact~\cite{tact} & Slade et al. & 2015 & 350 & 200 x 98 x 27 & 11 & 6 & 6 & DC Motor\\
+\hline
+UOMPro~\cite{uompro} & Nisal et al. & 2017 & 432 & 199 x 88 x - & 10 & 6 & 6 & DC Micro Motor\\
+\hline
+-~\cite{bennett} & Bennett at al. & 2015 & 546 & 200 x 89 x - & 12 & 12 & 4 & Brushless DC Servomotor\\
+\hline
+-~\cite{zhang} & Zhang et al. & 2015 & 420 & 159 x 79 x 21 & 15 & 5 & 5 & DC Motor\\
+\hline
+-~\cite{mio} & Mio et al. & 2017 & - & - & 10 & 6 & 6 & DC Micro Motor\\
+
+
 
 \end{tabular}
 
@@ -147,12 +164,23 @@ SoftHand Pro-D & 5 & 3/3 & Yes & tendons & EMG & - & - & -\\
 MORA Hap-2 & 5 & 2/3 & Yes & four-bar\newline linkage & - & - & - & -\\
 \hline
 Tact & 5 & 3/2 & Yes & tendons & EMG & - & 4.21 N & 249.8 $^\circ$/s\\
-
+\hline
+UOMPro & 5 & 2/2 & Yes & four-bar\newline linkage & - & - & - & -\\
+\hline
+Bennet et al. & 5 & 3/3/2 & Yes & tendons & tendon\newline excursion & - & 25-30 N & -\\
+\hline
+Zhang et al. & 5 & 3/3 & Yes & linkage mechanism & EMG/torque/ position & - & 4.3-10 N & 68-118 $^\circ$/s /\newline 1 s\\ 
+\hline
+Mio et al. & 5 & 2/2 & Yes & four-bar linkage/worm drive & position\newline sensors & - & 1.2-2.4 N & 100-180 $^\circ$/s\\
 
 \end{tabular}
 
+\newpage
+.
+\newpage
+
 \bibliographystyle{./IEEEtran}
-\nocite{*}
+%\nocite{*}
 \bibliography{./Ausarbeitung}
 %
 \end{document}

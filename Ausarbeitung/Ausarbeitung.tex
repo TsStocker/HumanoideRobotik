@@ -103,11 +103,19 @@ The thumb mechanism of the X-Hand is designed independently of the mechanism of 
 
 \subsection{Six-DOF-Hand}
 
-The Six-DOF-Hand~\cite{6dofhand} is a hand prosthesis developed by the Mechanical Engineering Department of the University of Colorado-Denver. One of the major goals of the project was to design a hand which is inexpensive and also open source. The hand is able to do any of the standard grasps (e.g. tip, palmar, lateral, cylindrical) as well as more complex tasks with independent finger movement. To keep the prosthetic hand low-cost a design with six DOFs was chosen, which includes two actuators for the thumb, for performing flexion/extension and rotation, and one actuator each for the other fingers. The metacarpophalangeal (MCP) and proximal interphalangeal (PIP) joints are coupled through a belt system, while the distal interphalangeal (DIP) joint is fixed on the fingers. The actuators include encoders to allow motor position feedback and testing and the fingershells of the hand contain internal space to leave the possibility of embedding force sensing elements and flex-sensors open.
+The Six-DOF-Hand~\cite{6dofhand} is a hand prosthesis developed by the Mechanical Engineering Department of the University of Colorado-Denver. One of the major goals of the project was to design a hand which is inexpensive and also open source. The hand is able to do any of the standard grasps (e.g. tip, palmar, lateral, cylindrical) as well as more complex tasks with independent finger movement. To keep the prosthetic hand low-cost a design with six DOFs was chosen, which includes two actuators for the thumb, for performing flexion/extension and rotation, and one actuator each for the other fingers. The metacarpal phalangeal (MCP) and proximal interphalangeal (PIP) joints are coupled through a belt system, while the distal interphalangeal (DIP) joint is fixed on the fingers. The actuators include encoders to allow motor position feedback and testing and the fingershells of the hand contain internal space to leave the possibility of embedding force sensing elements and flex-sensors open.
 
 \subsection{SoftHand Pro-D}
 
 The SoftHand Pro-D~\cite{softhand} is a prosthetic hand developed by the University of Pisa and the Instituto Italiano di Tecnologia whose design evolves from the Pisa/IIT SoftHand~\cite{pisahand}. The hand is highly underactuated by having 19 DOFs while only a single actuator. The hand consists of passive damping components and the desired motion is accomplished with the help of dynamic synergies. It can move in two different synergistic directions of motion to perform pinch grasps as well as power grasps. The proposed approach tries to exploit the frequency content of the EMG signals in an innovative and natural way, that means the speed of the muscle contraction is associated with the speed of the synergy. The single DC motor is located in the dorsal side of the palm and integrated in a support structure. The damping element lies parallel to the motor and is connected with a compression spring. Only the thumb is directly connected to the damper through a tendon.
+
+\subsection{Tact}
+
+The Tact~\cite{tact} hand is an open-source myoelectric prosthetic hand developed by the Department of Mechanical Science \& Engineering and the Department of Aerospace Engineering of the University of Illinois with the goal to design a hand which is affordable for people in developing countries. Therefore tradeoffs between cost, performance, duration, efficiency and manufacturability were evaluated to find a possible way to make the hand low-cost while still maintaining performance similar to commercial prosthetic hand. They use lower-cost motors and don't use a complex tendon-driven design as joint actuation method but rather a simplified method consisting of a DC motor and a spool. As joint coupling method a four-bar linkage is chosen to produce consistent movement and strong forces at the finger tips.
+
+\subsection{UOMPro}
+
+The UOMPro~\cite{uompro} is an artificial prosthetic hand developed by the Department of Mechanical Engineering of the University of Moratuwa. The designed hand has affordable cost and consists of six DOFs including flexion/extension for all five fingers and abduction/adduction of the thumb. Each finger of the hand consists of two joints, one proximal similar to the human metacarpal phalange (MCP) and one distal similar to both the human proximal interphalange (PIP) and distal interphalange (DIP). The DC geared micro motor in each finger can provide fairly good torque (~0.31 Nm) which is further increased for the proximal joint by a worm and wheel gear system. The fingers are designed with a fixed relationships between the joint motions realized by a form of a four-bar linkage. The flexion/extension motion for the thumb is achieved by a motor on the thumb base also using a four-bar mechanism and the adduction/abduction is achieved by a motor located under the thumb base. The electronic components which are responsible for the low-level controlling are placed inside the hand and a serial communication interface is provided to enable communication to a high-level controller which sends either individual finger positions or hand grip pattern commands. 
 
 \newpage
 
@@ -127,11 +135,11 @@ Six-DOF-Hand~\cite{6dofhand} & Krausz et al. & 2016 & 584 & 202 x 99 x 61 & 10 &
 \hline
 SoftHand Pro-D~\cite{softhand} & Piazza et al. & 2016 & - & - & 19 & 19 & 1 & DC Motor\\
 \hline
-MORA Hap-2~\cite{morahap2} & Gopura et al. & 2017 & 250 & 95 (fingers)\newline x 83 x 25 & 14 & 11 & 4 & -\\
-\hline
 Tact~\cite{tact} & Slade et al. & 2015 & 350 & 200 x 98 x 27 & 11 & 6 & 6 & DC Motor\\
 \hline
 UOMPro~\cite{uompro} & Nisal et al. & 2017 & 432 & 199 x 88 x - & 10 & 6 & 6 & DC Micro Motor\\
+\hline
+MORA Hap-2~\cite{morahap2} & Gopura et al. & 2017 & 250 & 95 (fingers)\newline x 83 x 25 & 14 & 11 & 4 & -\\
 \hline
 -~\cite{bennett} & Bennett at al. & 2015 & 546 & 200 x 89 x - & 12 & 12 & 4 & Brushless DC Servomotor\\
 \hline
@@ -161,11 +169,11 @@ Six-Dof-Hand & 5 & 2/2 & Yes & gears/belts & EMG & - & 4.12 N & 2.24 rads/s\\
 \hline
 SoftHand Pro-D & 5 & 3/3 & Yes & tendons & EMG & - & - & -\\
 \hline
-MORA Hap-2 & 5 & 2/3 & Yes & four-bar\newline linkage & - & - & - & -\\
-\hline
 Tact & 5 & 3/2 & Yes & tendons & EMG & - & 4.21 N & 249.8 $^\circ$/s\\
 \hline
 UOMPro & 5 & 2/2 & Yes & four-bar\newline linkage & - & - & - & -\\
+\hline
+MORA Hap-2 & 5 & 2/3 & Yes & four-bar\newline linkage & - & - & - & -\\
 \hline
 Bennet et al. & 5 & 3/3/2 & Yes & tendons & tendon\newline excursion & - & 25-30 N & -\\
 \hline

@@ -115,9 +115,14 @@ The Tact~\cite{tact} hand is an open-source myoelectric prosthetic hand develope
 
 \subsection{UOMPro}
 
-The UOMPro~\cite{uompro} is an artificial prosthetic hand developed by the Department of Mechanical Engineering of the University of Moratuwa. The designed hand has affordable cost and consists of six DOFs including flexion/extension for all five fingers and abduction/adduction of the thumb. Each finger of the hand consists of two joints, one proximal similar to the human metacarpal phalange (MCP) and one distal similar to both the human proximal interphalange (PIP) and distal interphalange (DIP). The DC geared micro motor in each finger can provide fairly good torque (~0.31 Nm) which is further increased for the proximal joint by a worm and wheel gear system. The fingers are designed with a fixed relationships between the joint motions realized by a form of a four-bar linkage. The flexion/extension motion for the thumb is achieved by a motor on the thumb base also using a four-bar mechanism and the adduction/abduction is achieved by a motor located under the thumb base. The electronic components which are responsible for the low-level controlling are placed inside the hand and a serial communication interface is provided to enable communication to a high-level controller which sends either individual finger positions or hand grip pattern commands. 
+The UOMPro~\cite{uompro} is an artificial prosthetic hand developed by the Department of Mechanical Engineering of the University of Moratuwa. The designed hand has affordable cost and consists of six DOFs including flexion/extension for all five fingers and abduction/adduction of the thumb. Each finger of the hand consists of two joints, one proximal similar to the human metacarpal phalange (MCP) and one distal similar to both the human proximal interphalange (PIP) and distal interphalange (DIP). The DC geared micro motor in each finger can provide fairly good torque (~0.31 Nm) which is further increased for the proximal joint by a worm and wheel gear system. The fingers are designed with a fixed relationships between the joint motions realized by a form of a four-bar linkage. The flexion/extension motion for the thumb is achieved by a motor on the thumb base also using a four-bar mechanism and the adduction/abduction is achieved by a motor located under the thumb base. The electronic components which are responsible for the low-level controlling are placed inside the hand and a serial communication interface is provided to enable communication to a high-level controller which sends either individual finger positions or hand grip pattern commands.
 
-\newpage
+\subsection{Hand of Bennet et al.}
+
+This hand prosthesis was developed by the Department of Mechanical Engineering of the Vanderbilt University. It incorporates four independent actuators in an unique configuration to provide precision grasps as well as whole-hand grasps. The thumb and the index finger which are responsible for precision grasps are both designed with three fully actuated DOFs to ensure good control during theses grasps. The first motor unit provides abduction/adduction of the thumb and the second motor unit provides flexion/extension of the thumb at the carpometacarpal (CMC) joint while the MCP and PIP joints are fused. The third motor unit provides flexion/extension of the index finger at the MCP joint while the PIP and DIP joints are fused. The other three fingers which are responsible for stabilizing during whole-hand grasping are designed in an underactuated configuration where a single actuator controls all six DOFs to ensure good stability. The thumb and the index finger are actuated via bidirectional tendons while the other fingers are actuated via unidirectional tendons.\\
+The hand mainly consists of a high-modulus material to form the load-bearing geometric and kinematic structure and a low-modulus structure to provide a softer cover to facilitate grasping of objects. The hand includes an embedded system consisting of a single, four-layer circuit board which is fully contained within the palm of the prosthetic hand. It accepts and executes motion and force commands from a high-level controller via a controller area network (CAN) serial interface and returns processed position and force information.
+
+\newpage~\newpage
 
 \begin{tabular}{l|p{2cm}|p{1cm}|p{1.2cm}|p{2.2cm}|p{1.2cm}|p{1.2cm}|p{1.2cm}|p{2cm}}
 
@@ -157,7 +162,7 @@ MORA Hap-2~\cite{morahap2} & Gopura et al. & 2017 & 250 & 95 (fingers)\newline x
 
 Name & Number of Fingers & Joints per Finger & Actuators integrated & Transmission system & Sensor system & Gripping force & Individual Finger Force & Joint Speed / Closing Time\\
 \hline
-MyHand & 5 & 2/2 & Yes & Geneva drive & EMG/automatic grasp control & - & 31 N/\newline 12 N & 160-250 $^\circ$/s\\
+MyHand & 5 & 2/2 & Yes & Geneva drive & EMG/position/force & - & 31 N/\newline 12 N & 160-250 $^\circ$/s\\
 \hline
 Asto Hand v.1 & 5 & 2/2 & Yes & tendon spring & EMG & - & - & -\\
 \hline

@@ -80,7 +80,7 @@ In this paper different hand prostheses which were published in the last few yea
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
 
-\section{Hand Prostheses}
+\section{Overview}
 
 \subsection{SSSA-MyHand}
 
@@ -126,9 +126,22 @@ The MORA Hap-2 is a prosthetic hand with self-adaptive fingers developed by the 
 This hand prosthesis was developed by the Department of Mechanical Engineering of the Vanderbilt University. It incorporates four independent actuators in an unique configuration to provide precision grasps as well as whole-hand grasps. The thumb and the index finger which are responsible for precision grasps are both designed with three fully actuated DOFs to ensure good control during theses grasps. The first motor unit provides abduction/adduction of the thumb and the second motor unit provides flexion/extension of the thumb at the carpometacarpal (CMC) joint while the MCP and PIP joints are fused. The third motor unit provides flexion/extension of the index finger at the MCP joint while the PIP and DIP joints are fused. The other three fingers which are responsible for stabilizing during whole-hand grasping are designed in an underactuated configuration where a single actuator controls all six DOFs to ensure good stability. The thumb and the index finger are actuated via bidirectional tendons while the other fingers are actuated via unidirectional tendons.\\
 The hand mainly consists of a high-modulus material to form the load-bearing geometric and kinematic structure and a low-modulus structure to provide a softer cover to facilitate grasping of objects. The hand includes an embedded system consisting of a single, four-layer circuit board which is fully contained within the palm of the prosthetic hand. It accepts and executes motion and force commands from a high-level controller via a controller area network (CAN) serial interface and returns processed position and force information.
 
-\newpage~\newpage
+\subsection{Hand of Zhang et al.}
+
+This prosthetic hand was developed mainly by the Guangdong Provincial Key Laboratory of Robotics and Intelligent Systems in the Chinese Academy of Sciences and consists of five fingers and 15 joints, with each finger being actuated by one embedded DC motor. It was made out that this is the most balanced approach in terms of efficiency, response time and reliability. The design of the index/middle finger and of the ring/little finger are different from each other to make the motion of the fingers more natural, to make more grasp patters possible and to make them adaptive to the object shape. A linkage mechanism was chosen as actuation mode instead of a tendon driving mechanism because it has more stability, can reach higher grasping forces and need less room. A coupling link mechanism was selected over an underactuated mechanism for the design of the fingers except for the thumb. While the underactuated mechanism makes an adaptive grasping mode possible, it was found out to be too complex and too bulky for their prosthetic hand. Since the thumb plays an important role in most grasping operations they tried to enable the thumb to grasp along a cone surface, similar to the human hand. For this the metacarpal of the thumb is placed at 30$^\circ$ deflection to the base joint of the middle finger and with an initial abduction of 30$^\circ$ to the palm.\\
+Dedicated torque and position sensors were developed for the prosthetic hand. They are used to guarantee control schemes such as impedance control in autonomous operations. The hand contains 18 proprioceptive and exteroceptive sensors: the base joints contain five Hall effect joint position sensors and five strain gauge joint torque sensors for measuring the grasping force of each finger, the palm contains five current sensors for the five DC motors and each motor in the thumb, index and middle finger contains three incremental encoders.\\
+The mechanical parts, electronics and the control system are embedded in the hand for a modular prosthesis which is easily maintainable. The motion control system consists of a small light weight motion control subsystem with high speed computation and several sensory subsystems. The motion control subsystem includes a DSP chip, an A/D converter to sample the sensor signals for torque and position, a CAN module to communicate with the mutual perception system and a serial communication module to connect the motion control system and a PC for debugging and operator training.\\
+A sensory feedback system is used to help the amputees to control the force as they intend. The motion control system acquires and grades the force data and sends it to the man-machine interface. The man-machine interface generates constructive parameters based on a typical stimulation strategy to establish the stimulation wave form. The parameters are then transmitted to the stimulator which produces concrete stimulus waveforms. The stimulus is then applied on the amputee's body so he can feel the actual force exerted by the hand prosthesis.
+
+\subsection{Hand of Mio et al.}
+
+This 3D-printed prosthetic hand was developed by the Laboratory of Biomechanics and Applied Robotics of the Pontificia Universidad Cat\'{o}lica del Per\'{u}. 
+
+\newpage
 
 \hspace*{-1cm}
+\begin{table}
+
 \begin{tabular}{l|p{2cm}|p{1cm}|p{1.2cm}|p{2.2cm}|p{1.2cm}|p{1.2cm}|p{1.2cm}|p{2cm}}
 
 Name & Developer & Year & Mass(g) & Size(mm) length x width x thickness & Number of joints & Degrees of freedom & Number of \newline actuators & Actuator type\\
@@ -157,13 +170,19 @@ MORA Hap-2~\cite{morahap2} & Gopura et al. & 2017 & 250 & 95 (fingers)\newline x
 \hline
 -~\cite{mio} & Mio et al. & 2017 & - & - & 10 & 6 & 6 & DC Micro Motor\\
 
-
-
 \end{tabular}
+
+\caption{Table with developer, year of publication, physical properties and information about joints and motors}
+\label{table:table1}
+
+\end{table}
 
 \vspace{3cm}
 
 \hspace*{-1cm}
+
+\begin{table}
+
 \begin{tabular}{p{2.5cm}|p{1.2cm}|p{1cm}|p{1.5cm}|p{2cm}|p{2cm}|p{1.2cm}|p{1.5cm}|p{2cm}}
 
 Name / \newline Developer & Number of Fingers & Joints per Finger & Actuators integrated & Transmission system & Sensor system & Gripping force & Individual Finger Force & Joint Speed / Closing Time\\
@@ -194,9 +213,20 @@ Mio et al. & 5 & 2/2 & Yes & four-bar linkage/worm drive & position\newline sens
 
 \end{tabular}
 
-\newpage
-.
-\newpage
+\caption{Table with information about finger kinematics, transmission and sensor systems, forces and joint speeds}
+
+\end{table}
+
+\newpage~\newpage
+
+\section{Comparison}
+
+\subsection{Physical properties}
+
+The average weight of a human hand is 400 g, which is around 0.5 $\%$ of the total body weight for women and around 0.6 $\%$ for men. Since hand prostheses are not connected through the skeleton like a human hand, users feel that prosthetic hands with this weight are too heavy and not comfortable. Therefore one goal to increase acceptability of designed hand prostheses is to keep the weight as low as possible. The weight of the presented hands (see Table~\ref{table:table1}) varies from 250 g for the MORA Hap-2 to 584 g for the Six-DOF-Hand. Only for three out of the eight hands the weight is below the 400 g of a human hand, while the weight of the others is probably too high to wear comfortable for a long time. It is important to note that these weights are the values described by the respective research groups and may not always include all components of the complete hand.\\
+Hand prosthesis naturally should have the average size of a human hand or even better the hand size of the actual patient. All presented hands are designed to have more or less the size of a human hand, while the length varies from 159 cm to 202 cm, the width from 79 cm to 99 cm and the thickness from 21 to 61 cm.
+
+\newpage~\newpage
 
 \bibliographystyle{./IEEEtran}
 %\nocite{*}

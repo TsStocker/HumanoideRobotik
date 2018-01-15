@@ -18,6 +18,10 @@
 \fi
 #2}}
 
+\bibitem{review}
+J.~T. Belter, ``Mechanical design and performance specifications of
+  anthropomorphic prosthetic hands: A review,'' pp. 599--618, 2013.
+
 \bibitem{myhand}
 M.~Controzzi, F.~Clemente, D.~Barone, A.~Ghionzoli, and C.~Cipriani, ``The
   sssa-myhand: A dexterous lightweight myoelectric hand prosthesis,''
@@ -56,21 +60,6 @@ C.~Piazza, C.~D. Santina, M.~Catalano, G.~Grioli, M.~Garabini, and A.~Bicchi,
   International Conference on Robotics and Automation (ICRA)}, May 2016, pp.
   3516--3523.
 
-\bibitem{pisahand}
-\BIBentryALTinterwordspacing
-M.~Catalano, G.~Grioli, E.~Farnioli, A.~Serio, C.~Piazza, and A.~Bicchi,
-  ``Adaptive synergies for the design and control of the pisa/iit softhand,''
-  \emph{The International Journal of Robotics Research}, vol.~33, no.~5, pp.
-  768--782, 2014. [Online]. Available:
-  \url{https://doi.org/10.1177/0278364913518998}
-\BIBentrySTDinterwordspacing
-
-\bibitem{morahap2}
-R.~A. R.~C. Gopura, D.~S.~V. Bandara, N.~P.~A. Gunasekera, V.~H. Hapuarachchi,
-  and B.~S. Ariyarathna, ``A prosthetic hand with self-adaptive fingers,'' in
-  \emph{2017 3rd International Conference on Control, Automation and Robotics
-  (ICCAR)}, April 2017, pp. 269--274.
-
 \bibitem{tact}
 P.~Slade, A.~Akhtar, M.~Nguyen, and T.~Bretl, ``Tact: Design and performance of
   an open-source, affordable, myoelectric prosthetic hand,'' in \emph{2015 IEEE
@@ -84,6 +73,12 @@ K.~Nisal, I.~Ruhunge, J.~Subodha, C.~J. Perera, and T.~D. Lalitharatne,
   International Conference of the IEEE Engineering in Medicine and Biology
   Society (EMBC)}, July 2017, pp. 909--912.
 
+\bibitem{morahap2}
+R.~A. R.~C. Gopura, D.~S.~V. Bandara, N.~P.~A. Gunasekera, V.~H. Hapuarachchi,
+  and B.~S. Ariyarathna, ``A prosthetic hand with self-adaptive fingers,'' in
+  \emph{2017 3rd International Conference on Control, Automation and Robotics
+  (ICCAR)}, April 2017, pp. 269--274.
+
 \bibitem{bennett}
 D.~A. Bennett, S.~A. Dalley, D.~Truex, and M.~Goldfarb, ``A multigrasp hand
   prosthesis for providing precision and conformal grasps,'' \emph{IEEE/ASME
@@ -95,10 +90,18 @@ T.~Zhang, X.~Q. Wang, L.~Jiang, X.~Wu, W.~Feng, D.~Zhou, and H.~Liu,
   prosthetic applications,'' \emph{Robotica}, vol.~34, no.~10, pp. 2291--2308,
   2016.
 
-\bibitem{mio}
-R.~Mio, B.~Villegas, L.~Ccorimanya, K.~M. Flores, G.~Salazar, and D.~Elías,
-  ``Development and assessment of a powered 3d-printed prosthetic hand for
-  transmetacarpal amputees,'' in \emph{2017 3rd International Conference on
-  Control, Automation and Robotics (ICCAR)}, April 2017, pp. 85--90.
+\bibitem{pisahand}
+\BIBentryALTinterwordspacing
+M.~Catalano, G.~Grioli, E.~Farnioli, A.~Serio, C.~Piazza, and A.~Bicchi,
+  ``Adaptive synergies for the design and control of the pisa/iit softhand,''
+  \emph{The International Journal of Robotics Research}, vol.~33, no.~5, pp.
+  768--782, 2014. [Online]. Available:
+  \url{https://doi.org/10.1177/0278364913518998}
+\BIBentrySTDinterwordspacing
+
+\bibitem{humanbody}
+R.~Chandler, C.~Clauser, J.~McConville, H.~Reynolds, and J.~Young,
+  ``Investigation of inertial properties of the human body,'' \emph{U.S.
+  Departement of Commerce}, 1975.
 
 \end{thebibliography}

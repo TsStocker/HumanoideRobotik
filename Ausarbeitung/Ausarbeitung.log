@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.13)  7 FEB 2018 15:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.13)  7 FEB 2018 22:57
 entering extended mode
 **./Ausarbeitung.tex
 (Ausarbeitung.tex
@@ -748,52 +748,50 @@ LaTeX Font Info:    Calculating math sizes for size <11> on input line 71.
  [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
-] [2] [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
+] [2] [3]
+Underfull \hbox (badness 2158) in paragraph at lines 153--153
+[]|\OT1/ptm/m/n/8 Size (mm) length x
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
 []|\OT1/ptm/m/n/8 Number
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
 []|\OT1/ptm/m/n/8 Number
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
-[]|\OT1/ptm/m/n/8 Number of
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+[]|\OT1/ptm/m/n/8 Number
  []
 
 
-Overfull \hbox (243.90309pt too wide) in paragraph at lines 152--180
-[][] 
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+\OT1/ptm/m/n/8 of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 []|\OT1/ptm/m/n/8 Actuators
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
-[]|\OT1/ptm/m/n/8 Transmission
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
 []|\OT1/ptm/m/n/8 Closing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
 []|\OT1/ptm/m/n/8 Hall ef-fect /
  []
 
 
-Overfull \hbox (245.72948pt too wide) in paragraph at lines 192--220
-[][] 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5] [6] (Ausarbeitung.bbl)
+[4] [5] [6] (Ausarbeitung.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -805,24 +803,26 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the US letter (8.5in X 11in) paper size.
 
-[7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 261.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 261.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 258.
+[7
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
  (Ausarbeitung.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 261.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 261.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 258.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 258.
 Package rerunfilecheck Info: File `Ausarbeitung.out' has not changed.
 (rerunfilecheck)             Checksum: 61FB23AD80C39579CDD3B96917C2DC90;1221.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 261.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 258.
  ) 
 Here is how much of TeX's memory you used:
- 17716 strings out of 493334
- 329512 string characters out of 3139248
- 430650 words of memory out of 3000000
- 20895 multiletter control sequences out of 15000+200000
- 43428 words of font info for 98 fonts, out of 3000000 for 9000
+ 17728 strings out of 493334
+ 329627 string characters out of 3139248
+ 418850 words of memory out of 3000000
+ 20902 multiletter control sequences out of 15000+200000
+ 43935 words of font info for 99 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,54p,1637b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,11n,54p,1635b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/
@@ -833,9 +833,9 @@ fb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on Ausarbeitung.pdf (7 pages, 149579 bytes).
+Output written on Ausarbeitung.pdf (7 pages, 152744 bytes).
 PDF statistics:
- 193 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 500000)
+ 208 PDF objects out of 1000 (max. 8388607)
+ 50 named destinations out of 1000 (max. 500000)
  173 words of extra memory for PDF output out of 10000 (max. 10000000)
 

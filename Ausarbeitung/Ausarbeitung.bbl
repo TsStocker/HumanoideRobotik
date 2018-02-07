@@ -90,6 +90,36 @@ T.~Zhang, X.~Q. Wang, L.~Jiang, X.~Wu, W.~Feng, D.~Zhou, and H.~Liu,
   prosthetic applications,'' \emph{Robotica}, vol.~34, no.~10, pp. 2291--2308,
   2016.
 
+\bibitem{vincent}
+\BIBentryALTinterwordspacing
+VincentSystems, ``Vincent hand.'' [Online]. Available:
+  \url{https://vincentsystems.de/en/prosthetics/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ilimb}
+\BIBentryALTinterwordspacing
+TouchBionics, ``ilimb hand.'' [Online]. Available:
+  \url{https://www.touchbionics.com/products}
+\BIBentrySTDinterwordspacing
+
+\bibitem{bebionic}
+\BIBentryALTinterwordspacing
+Ottobock, ``Bebionic hand.'' [Online]. Available:
+  \url{http://bebionic.com/the_hand/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{michelangelo}
+\BIBentryALTinterwordspacing
+------, ``Michelangelo hand.'' [Online]. Available:
+  \url{https://www.ottobock.de/michelangelo.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{bundhoo}
+V.~Bundhoo and E.~J. Park, ``Design of an artificial muscle actuated finger
+  towards biomimetic prosthetic hands,'' in \emph{ICAR '05. Proceedings., 12th
+  International Conference on Advanced Robotics, 2005.}, July 2005, pp.
+  368--375.
+
 \bibitem{pisahand}
 \BIBentryALTinterwordspacing
 M.~Catalano, G.~Grioli, E.~Farnioli, A.~Serio, C.~Piazza, and A.~Bicchi,

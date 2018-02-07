@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.13)  1 FEB 2018 23:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.13)  7 FEB 2018 15:40
 entering extended mode
 **./Ausarbeitung.tex
 (Ausarbeitung.tex
@@ -755,52 +755,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--154
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 154--154
-[]|\OT1/ptm/m/n/8 Degrees
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
-\OT1/ptm/m/n/8 of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
 []|\OT1/ptm/m/n/8 Number
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
-[]|\OT1/ptm/m/n/8 Brushless DC
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+[]|\OT1/ptm/m/n/8 Number of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
-[]|\OT1/ptm/m/n/8 Brushless DC
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
-[]|\OT1/ptm/m/n/8 Brushless DC
- []
-
-
-Overfull \hbox (272.05812pt too wide) in paragraph at lines 152--180
+Overfull \hbox (243.90309pt too wide) in paragraph at lines 152--180
 [][] 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 194--194
-[]|\OT1/ptm/m/n/8 Number
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
-[]|\OT1/ptm/m/n/8 Joints
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
-\OT1/ptm/m/n/8 per
+[]|\OT1/ptm/m/n/8 Actuators
  []
 
 
@@ -809,22 +779,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 194--194
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
-[]|\OT1/ptm/m/n/8 Gripping
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
-[]|\OT1/ptm/m/n/8 Individual
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 194--195
-[]|\OT1/ptm/m/n/8 Joint Speed /
+[]|\OT1/ptm/m/n/8 Closing
  []
 
 
-Overfull \hbox (289.42766pt too wide) in paragraph at lines 192--220
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+[]|\OT1/ptm/m/n/8 Hall ef-fect /
+ []
+
+
+Overfull \hbox (245.72948pt too wide) in paragraph at lines 192--220
 [][] 
  []
 
@@ -853,11 +818,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 261.
 Here is how much of TeX's memory you used:
  17716 strings out of 493334
  329512 string characters out of 3139248
- 432650 words of memory out of 3000000
+ 430650 words of memory out of 3000000
  20895 multiletter control sequences out of 15000+200000
  43428 words of font info for 98 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,54p,1629b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,11n,54p,1637b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/
@@ -868,7 +833,7 @@ fb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on Ausarbeitung.pdf (7 pages, 149659 bytes).
+Output written on Ausarbeitung.pdf (7 pages, 149579 bytes).
 PDF statistics:
  193 PDF objects out of 1000 (max. 8388607)
  45 named destinations out of 1000 (max. 500000)

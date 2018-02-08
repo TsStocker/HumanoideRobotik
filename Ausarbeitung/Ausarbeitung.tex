@@ -91,17 +91,41 @@ In this paper different hand prostheses published in the last three years by res
 
 The Tact~\cite{tact} hand is an open-source myoelectric prosthetic hand developed by the Department of Mechanical Science \& Engineering and the Department of Aerospace Engineering of the University of Illinois with the goal to design a hand which is affordable for people in developing countries. Therefore tradeoffs between cost, performance, duration, efficiency and manufacturability were evaluated to find a possible way to make the hand low-cost while still maintaining performance similar to commercial prosthetic hand. They use lower-cost motors and don't use a complex tendon-driven design as joint actuation method but rather a simplified method consisting of a DC motor and a spool. As joint coupling method a four-bar linkage is chosen to produce consistent movement and strong forces at the finger tips. The joints of the fingers can reach a rather high joint speed of 250 $^\circ$/s.
 
+\begin{figure}[h]
+
+	\centering
+	\includegraphics[scale=0.25]{images/Tact}
+	
+	\caption{The Tact}
+\end{figure}
+
 \subsection{Hand of Bennett et al.}
 
 The hand of Bennett et al.~\cite{bennett} was developed by the Department of Mechanical Engineering of the Vanderbilt University. It incorporates four independent actuators in an unique configuration to provide precision grasps as well as whole-hand grasps. The thumb and the index finger which are responsible for precision grasps are both designed with three fully actuated joints to ensure good control during theses grasps. The first motor unit provides abduction/adduction of the thumb and the second motor unit provides flexion/extension of the thumb at the carpometacarpal (CMC) joint while the metacarpal phalangeal (MCP) and proximal interphalangeal (PIP) joints are fused. The third motor unit provides flexion/extension of the index finger at the MCP joint while the PIP and distal interphalangeal (DIP) joints are fused. The other three fingers which are responsible for stabilizing during whole-hand grasping are designed in an underactuated configuration where a single actuator controls all six joints to ensure good stability. The thumb and the index finger are actuated via bidirectional tendons while the other fingers are actuated via unidirectional tendons.\\
 The hand mainly consists of a high-modulus material to form the load-bearing geometric and kinematic structure and a low-modulus structure to provide a softer cover to facilitate grasping of objects. The hand includes an embedded system consisting of a single, four-layer circuit board which is fully contained within the palm of the prosthetic hand. It accepts and executes motion and force commands from a high-level controller via a controller area network (CAN) serial interface and returns processed position and force information.
+
+\begin{figure}[h]
+
+	\centering
+	\includegraphics[scale=0.7]{images/Bennett}
+	
+	\caption{The Hand of Bennet et al.}
+\end{figure}
 
 \subsection{Hand of Zhang et al.}
 
 The hand of Zhang et al.~\cite{zhang} was developed mainly by the Guangdong Provincial Key Laboratory of Robotics and Intelligent Systems in the Chinese Academy of Sciences and consists of five fingers and 15 joints, with each finger being actuated by one embedded DC motor. From their point of view this is the most balanced approach in terms of efficiency, response time and reliability. The design of the index/middle finger and of the ring/little finger are different from each other to make the motion of the fingers more natural, to make more grasp patters possible and to make them adaptive to the object shape. A four-bar linkage mechanism was chosen as actuation mode instead of a tendon driving mechanism because they came to the result that it has more stability and can reach higher grasping forces. A coupling link mechanism was selected over an underactuated mechanism for the design of the fingers except for the thumb. While the underactuated mechanism makes an adaptive grasping mode possible, it was found out to be too complex and too bulky for their prosthetic hand. Since the thumb plays an important role in most grasping operations they tried to enable the thumb to grasp along a cone surface, similar to the human hand. For this the metacarpal of the thumb is placed at 30$^\circ$ deflection to the base joint of the middle finger and with an initial abduction of 30$^\circ$ to the palm.\\
 Dedicated torque and position sensors were developed for the prosthetic hand. They are used to guarantee control schemes such as impedance control in autonomous operations. The hand contains 18 proprioceptive and exteroceptive sensors: the base joints contain five Hall effect joint position sensors and five strain gauge joint torque sensors for measuring the grasping force of each finger, the palm contains five current sensors for the five DC motors and each motor in the thumb, index and middle finger contains three incremental encoders.\\
 The mechanical parts, electronics and the motion control system are embedded in the hand. The motion control system consists of a small light weight motion control subsystem with high speed computation and several sensory subsystems. The motion control subsystem includes a DSP chip, an A/D converter to sample the sensor signals for torque and position, a CAN module to communicate with the mutual perception system and a serial communication module to connect the motion control system and a PC for debugging and operator training.\\
-A sensory feedback system is used to help the amputees to control the force as they intend. The motion control system acquires and grades the force data and sends it to the man-machine interface. The man-machine interface generates constructive parameters based on a typical stimulation strategy and transmits them to the stimulator which produces concrete stimulus waveforms. The stimulator can be attached to the amputee's body and stimulus is then applied so he can feel the actual force exerted by the hand prosthesis. 
+A sensory feedback system is used to help the amputees to control the force as they intend. The motion control system acquires and grades the force data and sends it to the man-machine interface. The man-machine interface generates constructive parameters based on a typical stimulation strategy and transmits them to the stimulator which produces concrete stimulus waveforms. The stimulator can be attached to the amputee's body and stimulus is then applied so he can feel the actual force exerted by the hand prosthesis.
+
+\begin{figure}[h]
+
+	\centering
+	\includegraphics[scale=0.7]{images/Zhang}
+	
+	\caption{The Hand of Zhang et al.}
+\end{figure}
 
 \subsection{SSSA-MyHand}
 
@@ -109,6 +133,14 @@ The MyHand~\cite{myhand} was developed by the BioRobotics Institute of the SSSA 
 The hand includes a special transmission mechanism which implements a semi-independent actuation of the abduction/adduction of the thumb and the flexion/extension of the index finger with a single actuator. This so called TISIT (Thumb-Index Semi-Independent Transmission) combines a Geneva drive and a four-bar mechanism. The input of the TISIT is connected to the drive wheel of the Geneva drive as well as to the four-bar mechanism. The output of the Geneva drive is used for the abduction/adduction of the thumb while the output of the four-bar mechanism is used for the flexion/extension of the index.\\
 The prosthetic hand also contains a sensory system for automatic grasp control and makes a future integration of a sensory feedback system possible which returns a signal to the user via vibrations. The motors are controlled by the master microcontroller which also acquires the EMG singals and communicates with a high-level controller outside of the hand. The master microcontroller gains information about the actual speed and position of the motors from a slave microcontroller which samples this information through Hall-effect sensors in the actuators.\\
 The force exerted at the fingertips is on average 31.4 N for the thumb, 11.7 N for the index finger and between 9.4 N and 14.6 for the other three fingers. The flexion/extension speed is 160 $^\circ$/s for the thumb and 170 $^\circ$/s for the other fingers, while the speed of the thumb while switching from the opposition to the reposition state can reach 250 $^\circ$/s. The time needed to complete a grasp starting from the rest position is 270 ms for a lateral grasp and 370 ms for a cylindrical grasp.
+
+\begin{figure}[h]
+
+	\centering
+	\includegraphics[scale=0.15]{images/MyHand}
+	
+	\caption{The MyHand}
+\end{figure}
 
 
 \subsection{AstoHand v.1}
@@ -248,6 +280,12 @@ The SSSA-MyHand is the only prosthesis which considers sensory feedback to the u
 \subsection{Embedded systems}
 
 An embedded system is specified for the hand of Bennett et al., the hand of Zhang et al., the SSSA-MyHand, the AstoHand v.1 and for the UOMPro. The embedded systems always consist of a low-level controller which receives motor position or grip pattern commands from a high-level controller and are responsible for controlling the motors and receiving sensor feedback from them. The high-level controllers are located outside of the hands and generate the motor position or grip pattern commands for the low-level controllers. For the hand of Bennett et al. it also processes the sensor feedback it receives from the low-level controller. In the SSSA-MyHand the sensor feedback is directly processed in the low-level controller. The low-level controller is divided into a master and a slave. While the master is responsible for communicating with the outside and controlling the motors the slave receives the sensor feedback and passes it to the master.
+
+
+\section{Conclusion}
+
+When designing myoelectric hand prostheses it is always necessary to find appropriate trade-offs between functionality, comfort and affordability. There are different research groups which develop prosthetic hands and try to optimize the design and find new approaches to increase the quality. Many research groups set their focus on one unique new feature while ignoring other important properties a prosthetic hand should fulfill. This helps to get recognition for new interesting approaches and may help other groups with their deign in the future but many hands developed in research are not suited for commercial distribution because they lack attributes which are important for high acceptance, e.g. they are too heavy or the actuation is too complex. The main goal in the last years was to develop preferably low-cost prostheses to make them affordable for a lot of people. Many research groups tried to find a good middle ground between high functionality and low costs and therefore the focus was not to incorporate novel intelligent functions.\\
+Only the hand of Zhang et al. contains additional sensors in the joints outside of the actuators to get additional feedback. For five of the eleven hands an embedded system is specified. The embedded systems always consist of a low-level controller which receives motor position or grasp pattern commands from a high-level controller outside of the hand. The low-level controller is also responsible for controlling the actuators as well as to accept sensor feedback of the actuators.
 
 \newpage
 

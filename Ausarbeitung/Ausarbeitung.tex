@@ -102,7 +102,7 @@ The Tact~\cite{tact} hand is an open-source myoelectric prosthetic hand develope
 \subsection{Hand of Bennett et al.}
 
 The hand of Bennett et al.~\cite{bennett} was developed by the Department of Mechanical Engineering of the Vanderbilt University. It incorporates four independent actuators in an unique configuration to provide precision grasps as well as whole-hand grasps. The thumb and the index finger which are responsible for precision grasps are both designed with three fully actuated joints to ensure good control during theses grasps. The first motor unit provides abduction/adduction of the thumb and the second motor unit provides flexion/extension of the thumb at the carpometacarpal (CMC) joint while the metacarpal phalangeal (MCP) and proximal interphalangeal (PIP) joints are fused. The third motor unit provides flexion/extension of the index finger at the MCP joint while the PIP and distal interphalangeal (DIP) joints are fused. The other three fingers which are responsible for stabilizing during whole-hand grasping are designed in an underactuated configuration where a single actuator controls all six joints to ensure good stability. The thumb and the index finger are actuated via bidirectional tendons while the other fingers are actuated via unidirectional tendons.\\
-The hand mainly consists of a high-modulus material to form the load-bearing geometric and kinematic structure and a low-modulus structure to provide a softer cover to facilitate grasping of objects. The hand includes an embedded system consisting of a single, four-layer circuit board which is fully contained within the palm of the prosthetic hand. It accepts and executes motion and force commands from a high-level controller via a controller area network (CAN) serial interface and returns processed position and force information.
+The hand mainly consists of a high-modulus material to form the load-bearing geometric and kinematic structure and a low-modulus structure to provide a softer cover to facilitate grasping of objects. The hand includes an embedded system consisting of a single, four-layer circuit board which is fully contained within the palm of the prosthetic hand. It accepts and executes motion and force commands from a high-level controller via a controller area network (CAN) serial interface and returns processed position and force information (see Fig.~\ref{fig:embbennett}).
 
 \begin{figure}[h]
 
@@ -112,12 +112,23 @@ The hand mainly consists of a high-modulus material to form the load-bearing geo
 	\caption{The Hand of Bennet et al.}
 \end{figure}
 
+\begin{figure}[h]
+
+	\centering
+	\includegraphics[scale=0.7]{images/Bennett2}
+	
+	\caption{The embedded system of the hand of Bennet et al.}
+	\label{fig:embbennett}
+\end{figure}
+
 \subsection{Hand of Zhang et al.}
 
 The hand of Zhang et al.~\cite{zhang} was developed mainly by the Guangdong Provincial Key Laboratory of Robotics and Intelligent Systems in the Chinese Academy of Sciences and consists of five fingers and 15 joints, with each finger being actuated by one embedded DC motor. From their point of view this is the most balanced approach in terms of efficiency, response time and reliability. The design of the index/middle finger and of the ring/little finger are different from each other to make the motion of the fingers more natural, to make more grasp patters possible and to make them adaptive to the object shape. A four-bar linkage mechanism was chosen as actuation mode instead of a tendon driving mechanism because they came to the result that it has more stability and can reach higher grasping forces. A coupling link mechanism was selected over an underactuated mechanism for the design of the fingers except for the thumb. While the underactuated mechanism makes an adaptive grasping mode possible, it was found out to be too complex and too bulky for their prosthetic hand. Since the thumb plays an important role in most grasping operations they tried to enable the thumb to grasp along a cone surface, similar to the human hand. For this the metacarpal of the thumb is placed at 30$^\circ$ deflection to the base joint of the middle finger and with an initial abduction of 30$^\circ$ to the palm.\\
-Dedicated torque and position sensors were developed for the prosthetic hand. They are used to guarantee control schemes such as impedance control in autonomous operations. The hand contains 18 proprioceptive and exteroceptive sensors: the base joints contain five Hall effect joint position sensors and five strain gauge joint torque sensors for measuring the grasping force of each finger, the palm contains five current sensors for the five DC motors and each motor in the thumb, index and middle finger contains three incremental encoders.\\
-The mechanical parts, electronics and the motion control system are embedded in the hand. The motion control system consists of a small light weight motion control subsystem with high speed computation and several sensory subsystems. The motion control subsystem includes a DSP chip, an A/D converter to sample the sensor signals for torque and position, a CAN module to communicate with the mutual perception system and a serial communication module to connect the motion control system and a PC for debugging and operator training.\\
+Dedicated torque and position sensors were developed for the prosthetic hand. They are used to guarantee control schemes such as impedance control in autonomous operations. The hand contains 18 proprioceptive and exteroceptive sensors: the base joints contain five Hall effect joint position sensors and five strain gauge joint torque sensors for measuring the grasping force of each finger, the palm contains five current sensors for the five DC motors and each motor in the thumb, index and middle finger contains three incremental encoders (see Fig.~\ref{fig:senszhang}).\\
+The mechanical parts, electronics and the motion control system are embedded in the hand. The motion control system consists of a small light weight motion control subsystem with high speed computation and several sensory subsystems. The motion control subsystem includes a DSP chip, an A/D converter to sample the sensor signals for torque and position, a CAN module to communicate with the mutual perception system and a serial communication module to connect the motion control system and a PC for debugging and operator training (see Fig.~\ref{fig:embzhang}).\\
 A sensory feedback system is used to help the amputees to control the force as they intend. The motion control system acquires and grades the force data and sends it to the man-machine interface. The man-machine interface generates constructive parameters based on a typical stimulation strategy and transmits them to the stimulator which produces concrete stimulus waveforms. The stimulator can be attached to the amputee's body and stimulus is then applied so he can feel the actual force exerted by the hand prosthesis.
+
+\vspace{1cm}
 
 \begin{figure}[h]
 
@@ -127,19 +138,46 @@ A sensory feedback system is used to help the amputees to control the force as t
 	\caption{The Hand of Zhang et al.}
 \end{figure}
 
+\begin{figure}[h]
+
+	\centering
+	\includegraphics[scale=0.7]{images/Zhang2}
+	
+	\caption{The sensor system of the hand of Zhang et al.}
+	\label{fig:senszhang}
+\end{figure}
+
+\begin{figure}[h]
+
+	\centering
+	\includegraphics[scale=0.7]{images/Zhang3}
+	
+	\caption{The embedded system of the hand of Zhang et al.}
+	\label{fig:embzhang}
+\end{figure}
+
 \subsection{SSSA-MyHand}
 
 The MyHand~\cite{myhand} was developed by the BioRobotics Institute of the SSSA and published in 2016. The goal was to design a dexterous lightweight hand prosthesis as an alternative to clinically available multi-grasp prostheses while using low-cost manufacturing processes and components wherever possible. To reduce complexity the hand carries three identical 8W brushless DC motors, one for the flexion/extension of the thumb, one for the abduction/addutcion of the thumb as well as for the flexion/extension of the index finger and one for the flexion/extension of the other three fingers. The functional components are held together by a thin plate surrounded by a 3D-printed metallic mainframe and plastic covers for protection.\\
 The hand includes a special transmission mechanism which implements a semi-independent actuation of the abduction/adduction of the thumb and the flexion/extension of the index finger with a single actuator. This so called TISIT (Thumb-Index Semi-Independent Transmission) combines a Geneva drive and a four-bar mechanism. The input of the TISIT is connected to the drive wheel of the Geneva drive as well as to the four-bar mechanism. The output of the Geneva drive is used for the abduction/adduction of the thumb while the output of the four-bar mechanism is used for the flexion/extension of the index.\\
-The prosthetic hand also contains a sensory system for automatic grasp control and makes a future integration of a sensory feedback system possible which returns a signal to the user via vibrations. The motors are controlled by the master microcontroller which also acquires the EMG singals and communicates with a high-level controller outside of the hand. The master microcontroller gains information about the actual speed and position of the motors from a slave microcontroller which samples this information through Hall-effect sensors in the actuators.\\
+The prosthetic hand also contains a sensory system for automatic grasp control and makes a future integration of a sensory feedback system possible which returns a signal to the user via vibrations. The motors are controlled by the master microcontroller which also acquires the EMG singals and communicates with a high-level controller outside of the hand. The master microcontroller gains information about the actual speed and position of the motors from a slave microcontroller which samples this information through Hall-effect sensors in the actuators (see Fig.~\ref{fig:embmyhand}).\\
 The force exerted at the fingertips is on average 31.4 N for the thumb, 11.7 N for the index finger and between 9.4 N and 14.6 for the other three fingers. The flexion/extension speed is 160 $^\circ$/s for the thumb and 170 $^\circ$/s for the other fingers, while the speed of the thumb while switching from the opposition to the reposition state can reach 250 $^\circ$/s. The time needed to complete a grasp starting from the rest position is 270 ms for a lateral grasp and 370 ms for a cylindrical grasp.
 
 \begin{figure}[h]
 
 	\centering
-	\includegraphics[scale=0.15]{images/MyHand}
+	\includegraphics[scale=0.25]{images/MyHand}
 	
 	\caption{The MyHand}
+\end{figure}
+
+\begin{figure}[h]
+
+	\centering
+	\includegraphics[scale=0.3]{images/MyHand2}
+	
+	\caption{The embedded system of the MyHand}
+	\label{fig:embmyhand}
 \end{figure}
 
 
@@ -147,32 +185,113 @@ The force exerted at the fingertips is on average 31.4 N for the thumb, 11.7 N f
 
 The AstoHand v.1~\cite{astohand} was developed by the Department of Mechanical Engineering of the Diponegoro University. They focused on designing a low-cost anthropomorphic prosthetic hand which uses DC micro metal gear motors and 3D-printed material to make it lightweight. The developed hand has two joints per finger and each finger is powered by one motor. This configuration was chosen because it is sufficient for the most important activities of daily living while reducing the complexity of the mechanical design and manufacturing costs. For the movement of the fingers the motors are connected to the joints via a tendon-spring mechanism. The five DC motors are placed in the palm, an Arduino Nano microcontroller and driver motor are placed in the back cover and two batteries, with voltage of 3.7 V and capacity of 2425 mAh, are placed in the socket of the hand. The control algorithm of the hand is developed in Simulink and the digital input is used to read the tactile switch state for selecting one of the seven grip patterns.
 
+\begin{figure}[h]
+
+	\centering
+	\includegraphics[scale=0.4]{images/AstoHand}
+	
+	\caption{The AstoHand v.1}
+\end{figure}
+
 \subsection{X-Hand}
 
 The X-Hand~\cite{xhand} is an anthropomorphic prosthetic hand with size similar to the human hand designed by the Institute of Rehabilitation and Medical Robotics at the Huazhong University of Science and Technology. The goal was to design a hand prosthesis which fulfills the following three important features: Anthropomorphic grasp functions to cover the activities of daily living, few actuators to reduce complexity and easy control, and a compact structure with integrated hardware for a flexible installation and convenient wearing for the user.\\
 The thumb mechanism of the X-Hand is designed independently of the mechanism of the other fingers to enable the thumb to move independently during grasping like in the human hand. Two DC motors are used for the kinematic transmission system of the four fingers to generate anthropomorphic grasping movements and two DC motors are used for the movement of the thumb. The time needed to close the hand from open is 1.2 s. The grasping force measured during contact with a cylinder between thumb and index finger is 12.1 N.
 
+\begin{figure}[h]
+
+	\centering
+	\includegraphics[scale=0.32]{images/XHand}
+	
+	\caption{The X-Hand}
+\end{figure}
+
 \subsection{Six-DOF-Hand}
 
-The Six-DOF-Hand~\cite{6dofhand} is a hand prosthesis developed by the Mechanical Engineering Department of the University of Colorado-Denver. One of the major goals of the project was to design a hand which is inexpensive and also open source. The hand is able to do any of the standard grasps (e.g. tip, palmar, lateral, cylindrical) as well as more complex tasks with independent finger movement. To keep the prosthetic hand low-cost a design with six actuators was chosen, which includes two motors for the thumb, for performing flexion/extension and rotation, and one motor each for the other fingers. The MCP and PIP joints are coupled through a belt system, while the DIP joint is fixed. The actuators include encoders to allow motor position feedback and the fingershells of the hand contain internal space to leave the possibility of embedding force sensing elements and flex-sensors open.
+The Six-DOF-Hand~\cite{6dofhand} is a hand prosthesis developed by the Mechanical Engineering Department of the University of Colorado-Denver. One of the major goals of the project was to design a hand which is inexpensive and also open source. The hand is able to do any of the standard grasps (e.g. tip, palmar, lateral, cylindrical) as well as more complex tasks with independent finger movement. To keep the prosthetic hand low-cost a design with six actuators was chosen, which includes two motors for the thumb, for performing flexion/extension and rotation, and one motor each for the other fingers. The MCP and PIP joints are coupled through a belt system (see Fig.~\ref{fig:sixdof}), while the DIP joint is fixed. The actuators include encoders to allow motor position feedback and the fingershells of the hand contain internal space to leave the possibility of embedding force sensing elements and flex-sensors open.
+
+\begin{figure}[h]
+
+	\centering
+	\includegraphics[scale=0.32]{images/SixDoF}
+	
+	\caption{The Six-DOF-Hand}
+\end{figure}
+
+\begin{figure}[h]
+
+	\centering
+	\includegraphics[scale=0.25]{images/SixDoF2}
+	
+	\caption{The belt system of the Six-DOF-Hand}
+	\label{fig:sixdof}
+\end{figure}
 
 \subsection{Bionic Hand}
 
 The Bionic Hand~\cite{bionichand} is a hybrid actuated prosthetic hand with a total of 24 joints developed by the Department of Biomedical Engineering of the Bogazici University and the Department of Mechatronic Engineering of the Marmara University. The goal of the design of the prosthesis was to replicate the human hand as accurately as possible with all its joints and connections. Neural Networks are used to classify the EMG signals as well as to control the actuators which include brushless DC motors and Shape Memory Alloy (SMA) actuators. The two types of actuators are used to imitate extrinsic and intrinsic muscles and to emulate the antagonistic contraction. Overall there are 13 motors placed in the forearm, four motor pairs for the flexion and extension of the four fingers, two motors for the flexion-extension and abduction-adduction of the wrist and three motors for controlling the thumb. The SMA actuators are placed on the sides of the metacarpals and are used for the abduction-adduction of the fingers. While they are rather slow and not strong in comparison to DC motors they are good to imitate the relatively weak intrinsic muscles because of their low weight and small size. But they also produce small amounts of linear displacement and heat management is needed~\cite{bundhoo}.
 
+\begin{figure}[h]
+
+	\centering
+	\includegraphics[scale=0.6]{images/BionicHand}
+	
+	\caption{The Bionic Hand}
+\end{figure}
 
 \subsection{SoftHand Pro-D}
 
 The SoftHand Pro-D~\cite{softhand} is a prosthetic hand developed by the University of Pisa and the Instituto Italiano di Tecnologia whose design evolves from the Pisa/IIT SoftHand~\cite{pisahand}. The hand is highly underactuated by having 19 joints and only one single actuator. The hand consists of passive damping components and the desired motion is accomplished with the help of dynamic synergies. It can move in two different synergistic directions of motion to perform pinch grasps as well as power grasps. The proposed approach tries to exploit the frequency content of the EMG signals in an innovative and natural way, that means the speed of the muscle contraction is associated with the speed of the synergy. A low frequency in the EMG-signal leads to a low closing speed of the hand. The smaller fingers close a bit faster than the index finger whereby objects can be grasped between index finger and thumb with a precision grasp. A high frequency of the EMG-signal leads to a fast closing speed of the hand which can be used for power grasps. The single DC motor is located in the dorsal side of the palm and integrated in a support structure. The damping element lies parallel to the motor and is connected with a compression spring. Only the thumb is directly connected to the damper through a tendon.
 
+\begin{figure}[h]
+
+	\centering
+	\includegraphics[scale=1.0]{images/SoftHand}
+	
+	\caption{The SoftHand Pro-D}
+\end{figure}
 
 \subsection{UOMPro}
 
-The UOMPro~\cite{uompro} is an prosthetic hand developed by the Department of Mechanical Engineering of the University of Moratuwa. The designed hand has affordable costs and consists of six DOFs including flexion/extension for all five fingers and abduction/adduction of the thumb. Each finger of the hand consists of two joints, one proximal similar to the human MCP and one distal similar to both the human PIP and DIP. The DC geared micro motor in each finger can provide a torque of ~0.31 Nm which is further increased for the proximal joint by a worm and wheel gear system. The fingers are designed with a fixed relationships between the joint motions realized by a form of a four-bar linkage. The flexion/extension motion for the thumb is achieved by a motor on the thumb base also using a four-bar mechanism and the adduction/abduction is achieved by a motor located under the thumb base. The electronic components which are responsible for the low-level controlling are placed inside the hand and a serial communication interface is provided to enable communication to a high-level controller which sends either individual finger positions or hand grip pattern commands.
+The UOMPro~\cite{uompro} is an prosthetic hand developed by the Department of Mechanical Engineering of the University of Moratuwa. The designed hand has affordable costs and consists of six DOFs including flexion/extension for all five fingers and abduction/adduction of the thumb. Each finger of the hand consists of two joints, one proximal similar to the human MCP and one distal similar to both the human PIP and DIP. The DC geared micro motor in each finger can provide a torque of ~0.31 Nm which is further increased for the proximal joint by a worm and wheel gear system. The fingers are designed with a fixed relationships between the joint motions realized by a form of a four-bar linkage. The flexion/extension motion for the thumb is achieved by a motor on the thumb base also using a four-bar mechanism and the adduction/abduction is achieved by a motor located under the thumb base. The electronic components which are responsible for the low-level controlling are placed inside the hand and a serial communication interface is provided to enable communication to a high-level controller which sends either individual finger positions or hand grip pattern commands (see Fig.\ref{fig:embuompro}).
+
+\begin{figure}[h]
+
+	\centering
+	\includegraphics[scale=1.0]{images/UOMPro}
+	
+	\caption{The UOMPro}
+\end{figure}
+
+\begin{figure}[h]
+
+	\centering
+	\includegraphics[scale=0.7]{images/UOMPro2}
+	
+	\caption{The embedded system of the UOMPro}
+	\label{fig:embuompro}
+\end{figure}
 
 \subsection{MORA Hap-2}
 
-The MORA Hap-2~\cite{morahap2} is a prosthetic hand with self-adaptive fingers developed by the Department of Mechanical Engineering of the University of Moratuwa. The transmission system and the actuators are all placed within a single unit. The prosthetic hand is capable of generating five different grasping patterns (cylindrical grasp, hook grasp, lateral pinch, tip pinch and palmar pinch). All fingers except for the thumb have the same mechanism consisting of two four-bar linkages connected at the PIP joint. Three torsion springs are attached at the joints of the fingers to limit joint motion of the four-bar mechanism and to help carry out the underactuation. The structure of the thumb is similar to the proximal and middle phalange of the normal finger mechanism. The thumb mechanism consists of a single four-bar linkage and two torsional springs and can generate flexion/extension and adduction/abduction with two separate motors. The finger mechanism of the prosthetic hand includes the ability of self-adaption to provide robust grasps for different objects. When the proximal phalange is in contact with the object during the grasping process, the PIP joint continues to rotate compressing the torsion spring inside the first four-bar linkage until the middle phalange gets in contact with the object. Then the DIP joint continues to rotate until the distal phalange gets in contact with the object and the object is grasped properly. This means the joints of the fingers are capable of adopting their angles passively according to the geometry of the object to ensure a robust grasp.
+The MORA Hap-2~\cite{morahap2} is a prosthetic hand with self-adaptive fingers developed by the Department of Mechanical Engineering of the University of Moratuwa. The transmission system and the actuators are all placed within a single unit. The prosthetic hand is capable of generating five different grasping patterns (cylindrical grasp, hook grasp, lateral pinch, tip pinch and palmar pinch). All fingers except for the thumb have the same mechanism consisting of two four-bar linkages connected at the PIP joint. Three torsion springs are attached at the joints of the fingers to limit joint motion of the four-bar mechanism and to help carry out the underactuation. The structure of the thumb is similar to the proximal and middle phalange of the normal finger mechanism. The thumb mechanism consists of a single four-bar linkage and two torsional springs and can generate flexion/extension and adduction/abduction with two separate motors. The finger mechanism of the prosthetic hand includes the ability of self-adaption to provide robust grasps for different objects. When the proximal phalange is in contact with the object during the grasping process, the PIP joint continues to rotate compressing the torsion spring inside the first four-bar linkage until the middle phalange gets in contact with the object (see Fig.~\ref{fig:mora}). Then the DIP joint continues to rotate until the distal phalange gets in contact with the object and the object is grasped properly. This means the joints of the fingers are capable of adopting their angles passively according to the geometry of the object to ensure a robust grasp.
+
+\begin{figure}[h]
+
+	\centering
+	\includegraphics[scale=0.32]{images/MORAHap-2}
+	
+	\caption{The MORAHap-2}
+\end{figure}
+
+\begin{figure}[h]
+
+	\centering
+	\includegraphics[scale=0.3]{images/MORAHap-22}
+	
+	\caption{The self-adaptive system of the MORAHap-2}
+	\label{fig:mora}
+\end{figure}
 
 
 
@@ -209,7 +328,7 @@ MORA Hap-2~\cite{morahap2} & Gopura et al. & 2017 & 250 & 95(fingers) x 83 x 25\
 
 \end{tabular}
 
-\caption{Table with developer, year of publication, physical properties and information about joints and motors.\newline The additional line in Size states which percentile of a male hand (or female if stated) the value corresponds to.\newline The joints per finger are subdivided into thumb/(index/)others.}
+\caption{Table with developer, year of publication, physical properties and information about joints and motors.\newline The additional line in Size states which percentile of a male hand (or female if stated) the value corresponds to~\cite{garrett}.\newline The joints per finger are subdivided into thumb/(index/)others.}
 \label{table:table1}
 
 \end{table*}
@@ -248,29 +367,58 @@ MORA Hap-2 & - & Yes & Four-bar linkage & - & - & - & -\\
 \end{tabular}
 
 \caption{Table with information about actuators, transmission and sensor systems and dynamic properties.\newline The individual finger forces are subdivided into thumb/(index/)others}
+\label{table:table2}
 
 \end{table*}
 
-\newpage~\newpage
+\newpage%~\newpage
 
 \section{Comparison}
 
 \subsection{Physical properties}
 
-The average weight of a human hand is 400 g~\cite{humanbody}, which is around 0.5 $\%$ of the total body weight for women and around 0.6 $\%$ for men. Since hand prostheses are not connected through the skeleton like a human hand, users feel that prosthetic hands with this weight are already too heavy and not comfortable. Therefore one goal to increase acceptability of designed hand prostheses is to keep the weight as low as possible. The weight of the presented hands (see Table~\ref{table:table1}) varies from 250 g for the MORA Hap-2 to 584 g for the Six-DOF-Hand. Only for three out of the eight hands the weight is below the 400 g of a human hand, while the weight of the others is probably too high to wear comfortably for a longer duration. It is important to note that these weights are the values described by the respective research groups and may not always include all components of the complete hand.\\
+The average weight of a human hand is 400 g~\cite{humanbody}, which is around 0.5 $\%$ of the total body weight for women and around 0.6 $\%$ for men. Since hand prostheses are not connected through the skeleton like a human hand, users feel that prosthetic hands with this weight are already too heavy and not comfortable. Therefore one goal to increase acceptability of designed hand prostheses is to keep the weight as low as possible. The weight of the presented hands varies from 250 g for the MORA Hap-2 to 584 g for the Six-DOF-Hand (see Table~\ref{table:table1}). Only for three out of the eight hands the weight is below the 400 g of a human hand, while the weight of the others is probably too high to wear comfortably for a longer duration. It is important to note that these weights are the values described by the respective research groups and may not always include all components of the complete hand.\\
 Hand prosthesis naturally should have the average size of a human hand or even better the hand size of the actual patient. All presented hands are designed to have more or less the size of a human hand, while the length varies from 159 mm to 202 mm, the width from 79 mm to 99 mm and the thickness from 21 mm to 61 mm.
 
 \subsection{Kinematics and Actuation}
 
-All fingers of the eleven presented prosthetic hands have between two and four joints. There are many different combinations of joints. See~\ref{table:table1} for the exact distribution of the joints in the different hands.\\
+All fingers of the eleven presented prosthetic hands have between two and four joints. There are many different combinations of joints. See Table~\ref{table:table1} for the exact distribution of the joints in the different hands.\\
 Most of the hands have between four and six actuators, which means one or two actuators for the thumb and either one actuator for each other finger or one actuator for the index and one actuator for the other three fingers combined. The two hands with less actuators are on the one hand the MyHand with one motor for the thumb, one motor for thumb and index finger combined and one motor for the last three fingers and on the other hand the strongly underactuated SoftHand Pro-D which only uses one single motor for all five fingers. The only hand with more than six actuators as well as actuators located outside of the hand is the Bionic Hand with 13 actuators, three for the thumb, four pairs for the other fingers and two for the wrist.\\
-As transmission system six hands use tendons, while the MyHand uses a combination of four-bar linkage and Geneva drives, the Six-DOF-hand uses gears and belts and the hand of Zhang et al., the UOMPro and MORA Hap-2 use four-bar linkage.
+See Fig.~\ref{fig:dia1} for the relationship between the number of actuators and the weight and Fig.~\ref{fig:dia2} for the comparison between the number of actuators and the number of joints for the different hands.\\
+As transmission system five hands use tendons, while the MyHand uses a combination of four-bar linkage and Geneva drives, the Six-DOF-hand uses gears and belts and the Tact, the hand of Zhang et al., the UOMPro and MORA Hap-2 use four-bar linkage (see Table~\ref{table:table2}).
+
+\begin{figure}[h]
+
+	\centering
+	\includegraphics[scale=0.45]{images/weight-act}
+	
+	\caption{The relationship between the number of actuators and the weight.}
+	\label{fig:dia1}
+\end{figure}
+
+\begin{figure}[h]
+
+	\centering
+	\includegraphics[scale=0.45]{images/act-joints}
+	
+	\caption{The relationship between the number of actuators and the number of joints.}
+	\label{fig:dia2}
+\end{figure}
 
 \subsection{Grasping and dynamics}
 
-The goal of all developed prosthetic hands is to have sufficient grasping patterns for various activities of daily living (ADLs). All presented hands are capable of most of the known grasping patterns including power grasps, precision grasps, lateral grasps and hook grasp except for the SoftHand Pro-D. But even this prosthetic hand with only one single actuator can move along two different synergistic directions of motion to perform either precision or power grasps.\\
+The goal of all developed prosthetic hands is to have sufficient grasping patterns for various activities of daily living (ADLs). Nearly all presented hands are capable of most of the known grasping patterns including power grasps, precision grasps, lateral grasps and hook grasp (see e.g. Fig.~\ref{fig:grasps}). The only exception is the SoftHand Pro-D, but even this prosthetic hand with only one single actuator can move along two different synergistic directions of motion to perform either a precision or a power grasp.\\
 For some of the prosthetic hands experiments were performed to obtain the maximal forces and joint speeds the hands can reach. The individual fingers of the Six-DOF-Hand and the Tact and the two small fingers of the hand of Zhang et al. can reach a force of about 4.2 N, while the other fingers of the hand of Zhang et al. and the normal fingers of the MyHand can reach a force of 10-12 N. The thumb of the MyHand and the thumb and index finger of the hand by Bennet et al. can reach a force of up to 31 N. Only for the X-Hand a total grasping force, which is the sum of all contact forces, is given and amounts to 12.1 N.\\
-While the fingers of the human hand can reach a joint speed of up to 2290 $^\circ$/s during flexion the joint speed for everyday movements lies only between 172 and 200 $\circ$/s~\cite{weir}. Therefore this speed should be enough for activities of daily living. The joints of the MyHand, of the Six-DOF-Hand and of the hand of Zhang et al. can reach a speed of 120-160 $^\circ$/s. The base joint of the thumb of the MyHand and the joints of the Tact can reach a speed of 250 $^\circ$/s. The time needed to fully close the hand from open is 1.2 s for the X-Hand and 1 s for the hand of Zhang et al.
+While the fingers of the human hand can reach a joint speed of up to 2290 $^\circ$/s during flexion the joint speed for everyday movements lies only between 172 and 200 $\circ$/s~\cite{weir}. Therefore this speed should be enough for activities of daily living. The joints of the MyHand, of the Six-DOF-Hand and of the hand of Zhang et al. can reach a speed of 120-160 $^\circ$/s. The base joint of the thumb of the MyHand and the joints of the Tact can reach a speed of 250 $^\circ$/s. The time needed to fully close the hand from open is 1.2 s for the X-Hand and 1 s for the hand of Zhang et al. (see Table~\ref{table:table2}).
+
+\begin{figure}[h]
+
+	\centering
+	\includegraphics[scale=0.4]{images/Tact2}
+		
+	\caption{The Tact performing different grasps (precision, power and lateral grasp).}
+	\label{fig:grasps}
+\end{figure}
 
 \subsection{Sensory systems}
 
@@ -284,7 +432,7 @@ An embedded system is specified for the hand of Bennett et al., the hand of Zhan
 
 \section{Conclusion}
 
-When designing myoelectric hand prostheses it is always necessary to find appropriate trade-offs between functionality, comfort and affordability. There are different research groups which develop prosthetic hands and try to optimize the design and find new approaches to increase the quality. Many research groups set their focus on one unique new feature while ignoring other important properties a prosthetic hand should fulfill. This helps to get recognition for new interesting approaches and may help other groups with their deign in the future but many hands developed in research are not suited for commercial distribution because they lack attributes which are important for high acceptance, e.g. they are too heavy or the actuation is too complex. The main goal in the last years was to develop preferably low-cost prostheses to make them affordable for a lot of people. Many research groups tried to find a good middle ground between high functionality and low costs and therefore the focus was not to incorporate novel intelligent functions.\\
+When designing myoelectric hand prostheses it is always necessary to find appropriate trade-offs between functionality, comfort and affordability. There are different research groups which develop prosthetic hands trying to optimize the design and to find new approaches to increase quality. Many research groups set their focus on one unique new feature while ignoring other important properties a prosthetic hand should fulfill. This helps to get recognition for new interesting approaches and may help other groups with their design in the future but many hands developed in research are not suited for commercial distribution because they lack attributes which are important for high acceptance, e.g. they are too heavy or the actuation is too complex. The main goal in the last years was to develop preferably low-cost prostheses to make them affordable for a lot of people. Many research groups tried to find a good middle ground between high functionality and low costs and therefore the focus was not to incorporate novel intelligent functions.\\
 Only the hand of Zhang et al. contains additional sensors in the joints outside of the actuators to get additional feedback. For five of the eleven hands an embedded system is specified. The embedded systems always consist of a low-level controller which receives motor position or grasp pattern commands from a high-level controller outside of the hand. The low-level controller is also responsible for controlling the actuators as well as to accept sensor feedback of the actuators.
 
 \newpage

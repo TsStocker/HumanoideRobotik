@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.13)  8 FEB 2018 12:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.13)  10 FEB 2018 15:38
 entering extended mode
 **./Ausarbeitung.tex
 (Ausarbeitung.tex
@@ -759,7 +759,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ]
-<images/Bennett.jpg, id=105, 289.08pt x 202.8378pt>
+<images/Bennett.jpg, id=106, 289.08pt x 202.8378pt>
 File: images/Bennett.jpg Graphic file (type jpg)
  <use images/Bennett.jpg>
 Package pdftex.def Info: images/Bennett.jpg used on input line 110.
@@ -768,65 +768,215 @@ Package pdftex.def Info: images/Bennett.jpg used on input line 110.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/Zhang.jpg, id=106, 241.3818pt x 181.1568pt>
+<images/Bennett2.jpg, id=107, 192.72pt x 292.4526pt>
+File: images/Bennett2.jpg Graphic file (type jpg)
+ <use images/Bennett2.jpg>
+Package pdftex.def Info: images/Bennett2.jpg used on input line 118.
+(pdftex.def)             Requested size: 134.90306pt x 204.71542pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2 <./images/Tact.png> <./images/Bennett.jpg> <./images/Bennett2.jpg>]
+<images/Zhang.jpg, id=118, 241.3818pt x 181.1568pt>
 File: images/Zhang.jpg Graphic file (type jpg)
  <use images/Zhang.jpg>
-Package pdftex.def Info: images/Zhang.jpg used on input line 125.
+Package pdftex.def Info: images/Zhang.jpg used on input line 136.
 (pdftex.def)             Requested size: 168.96611pt x 126.80888pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<images/Zhang2.jpg, id=119, 180.675pt x 230.7822pt>
+File: images/Zhang2.jpg Graphic file (type jpg)
+ <use images/Zhang2.jpg>
+Package pdftex.def Info: images/Zhang2.jpg used on input line 144.
+(pdftex.def)             Requested size: 126.47162pt x 161.54643pt.
 
- [2 <./images/Tact.png> <./images/Bennett.jpg>]
-<images/MyHand.png, id=114, 1043.9pt x 1924.18875pt>
-File: images/MyHand.png Graphic file (type png)
- <use images/MyHand.png>
-Package pdftex.def Info: images/MyHand.png used on input line 140.
-(pdftex.def)             Requested size: 156.57823pt x 288.61586pt.
+<images/Zhang3.jpg, id=120, 249.8133pt x 319.1925pt>
+File: images/Zhang3.jpg Graphic file (type jpg)
+ <use images/Zhang3.jpg>
+Package pdftex.def Info: images/Zhang3.jpg used on input line 153.
+(pdftex.def)             Requested size: 174.8681pt x 223.43321pt.
 
-[3 <./images/Zhang.jpg> <./images/MyHand.png>] [4]
-Underfull \hbox (badness 2158) in paragraph at lines 185--185
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 5147) has occurred while \output is active []
+
+ [3 <./images/Zhang.jpg> <./images/Zhang2.jpg> <./images/Zhang3.jpg>]
+<images/MyHand.jpg, id=129, 782.925pt x 749.04843pt>
+File: images/MyHand.jpg Graphic file (type jpg)
+ <use images/MyHand.jpg>
+Package pdftex.def Info: images/MyHand.jpg used on input line 169.
+(pdftex.def)             Requested size: 195.73077pt x 187.26164pt.
+
+<images/MyHand2.jpg, id=130, 784.43062pt x 414.79968pt>
+File: images/MyHand2.jpg Graphic file (type jpg)
+
+<use images/MyHand2.jpg>
+Package pdftex.def Info: images/MyHand2.jpg used on input line 177.
+(pdftex.def)             Requested size: 235.331pt x 124.44086pt.
+
+<images/AstoHand.jpg, id=131, 526.21594pt x 502.87875pt>
+File: images/AstoHand.jpg Graphic file (type jpg)
+
+<use images/AstoHand.jpg>
+Package pdftex.def Info: images/AstoHand.jpg used on input line 191.
+(pdftex.def)             Requested size: 210.48265pt x 201.14793pt.
+ <images/XHand.png, id=132, 483.8075pt x 673.51625pt>
+File: images/XHand.png Graphic file (type png)
+
+<use images/XHand.png>
+Package pdftex.def Info: images/XHand.png used on input line 204.
+(pdftex.def)             Requested size: 154.82156pt x 215.5296pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4 <./images/MyHand.jpg> <./images/MyHand2.jpg> <./images/AstoHand.jpg>]
+<images/SixDoF.jpg, id=141, 400.49625pt x 562.35094pt>
+File: images/SixDoF.jpg Graphic file (type jpg)
+ <use images/SixDoF.jpg>
+Package pdftex.def Info: images/SixDoF.jpg used on input line 216.
+(pdftex.def)             Requested size: 128.1614pt x 179.95598pt.
+
+<images/SixDoF2.jpg, id=142, 225.84375pt x 613.54219pt>
+File: images/SixDoF2.jpg Graphic file (type jpg)
+
+<use images/SixDoF2.jpg>
+Package pdftex.def Info: images/SixDoF2.jpg used on input line 224.
+(pdftex.def)             Requested size: 56.46078pt x 153.38516pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/BionicHand.jpg, id=143, 281.55188pt x 318.43968pt>
+File: images/BionicHand.jpg Graphic file (type jpg)
+
+<use images/BionicHand.jpg>
+Package pdftex.def Info: images/BionicHand.jpg used on input line 237.
+(pdftex.def)             Requested size: 168.93242pt x 191.06528pt.
+ [5 <./images/XHand.png> <./images/SixDoF.jpg> <./images/SixDoF2.jpg> <./images
+/BionicHand.jpg>]
+<images/SoftHand.jpg, id=153, 172.39406pt x 164.11313pt>
+File: images/SoftHand.jpg Graphic file (type jpg)
+
+<use images/SoftHand.jpg>
+Package pdftex.def Info: images/SoftHand.jpg used on input line 249.
+(pdftex.def)             Requested size: 172.39363pt x 164.11272pt.
+
+<images/UOMPro.jpg, id=155, 121.20282pt x 164.86594pt>
+File: images/UOMPro.jpg Graphic file (type jpg)
+ <use images/UOMPro.jpg>
+Package pdftex.def Info: images/UOMPro.jpg used on input line 261.
+(pdftex.def)             Requested size: 121.20251pt x 164.86551pt.
+
+<images/UOMPro2.jpg, id=156, 331.2375pt x 235.63031pt>
+File: images/UOMPro2.jpg Graphic file (type jpg)
+
+<use images/UOMPro2.jpg>
+Package pdftex.def Info: images/UOMPro2.jpg used on input line 269.
+(pdftex.def)             Requested size: 231.86465pt x 164.94008pt.
+ [6 <./images/SoftHand.jpg> <./images/UOMPro.jpg> <./images/UOMPro2.jpg>] <imag
+es/MORAHap-2.jpg, id=165, 595.47469pt x 496.10344pt>
+File: images/MORAHap-2.jpg Graphic file (type jpg)
+
+<use images/MORAHap-2.jpg>
+Package pdftex.def Info: images/MORAHap-2.jpg used on input line 282.
+(pdftex.def)             Requested size: 190.55579pt x 158.75633pt.
+
+<images/MORAHap-22.jpg, id=166, 748.29562pt x 310.15875pt>
+File: images/MORAHap-22.jpg Graphic file (type jpg)
+
+<use images/MORAHap-22.jpg>
+Package pdftex.def Info: images/MORAHap-22.jpg used on input line 290.
+(pdftex.def)             Requested size: 224.49042pt x 93.04834pt.
+
+Underfull \hbox (badness 2158) in paragraph at lines 304--304
 []|\OT1/ptm/m/n/8 Size (mm) length x
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--185
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
 []|\OT1/ptm/m/n/8 Number
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--185
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
 []|\OT1/ptm/m/n/8 Number
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
 []|\OT1/ptm/m/n/8 Number
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
 \OT1/ptm/m/n/8 of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
 []|\OT1/ptm/m/n/8 Actuators
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
 []|\OT1/ptm/m/n/8 Closing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--231
+Underfull \hbox (badness 10000) in paragraph at lines 350--350
 []|\OT1/ptm/m/n/8 Hall ef-fect /
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/weight-act.png, id=172, 481.8pt x 481.8pt>
+File: images/weight-act.png Graphic file (type png)
+ <use images/weight-act.png>
+Package pdftex.def Info: images/weight-act.png used on input line 393.
+(pdftex.def)             Requested size: 216.80798pt x 216.80798pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/act-joints.png, id=173, 481.8pt x 481.8pt>
+File: images/act-joints.png Graphic file (type png)
+ <use images/act-joints.png>
+Package pdftex.def Info: images/act-joints.png used on input line 402.
+(pdftex.def)             Requested size: 216.80798pt x 216.80798pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7 <./images/MORAHap-2.jpg> <./images/MORAHap-22.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+<images/Tact2.jpg, id=188, 617.30624pt x 167.12437pt>
+File: images/Tact2.jpg Graphic file (type jpg)
+ <use images/Tact2.jpg>
+Package pdftex.def Info: images/Tact2.jpg used on input line 417.
+(pdftex.def)             Requested size: 246.91812pt x 66.84856pt.
+
+Overfull \hbox (1.20001pt too wide) in paragraph at lines 417--418
+ [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5] [6] [7] (Ausarbeitung.bbl)
+[8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9 <./images/weight-act.png> <./images/act-joints.png> <./images/Tact2.jpg>]
+(Ausarbeitung.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -838,30 +988,26 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the US letter (8.5in X 11in) paper size.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 296.
-[8
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 444.
+[10
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 296.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 444.
  (Ausarbeitung.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 296.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 296.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 444.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 444.
 Package rerunfilecheck Info: File `Ausarbeitung.out' has not changed.
-(rerunfilecheck)             Checksum: A422525F615D9143F96A6631A9A16A84;1268.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 296.
+(rerunfilecheck)             Checksum: 865B5E290164EBEEF25B5A8CA71FEE3D;1269.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 444.
  ) 
 Here is how much of TeX's memory you used:
- 17760 strings out of 493334
- 330134 string characters out of 3139248
- 415850 words of memory out of 3000000
- 20921 multiletter control sequences out of 15000+200000
+ 17877 strings out of 493334
+ 332373 string characters out of 3139248
+ 421879 words of memory out of 3000000
+ 21001 multiletter control sequences out of 15000+200000
  43935 words of font info for 99 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,54p,1635b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,11n,54p,1669b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/
@@ -872,9 +1018,9 @@ fb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on Ausarbeitung.pdf (8 pages, 962908 bytes).
+Output written on Ausarbeitung.pdf (10 pages, 2043486 bytes).
 PDF statistics:
- 227 PDF objects out of 1000 (max. 8388607)
- 56 named destinations out of 1000 (max. 500000)
- 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 287 PDF objects out of 1000 (max. 8388607)
+ 76 named destinations out of 1000 (max. 500000)
+ 286 words of extra memory for PDF output out of 10000 (max. 10000000)
 

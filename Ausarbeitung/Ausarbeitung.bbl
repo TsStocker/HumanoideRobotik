@@ -121,13 +121,14 @@ V.~Bundhoo and E.~J. Park, ``Design of an artificial muscle actuated finger
   368--375.
 
 \bibitem{pisahand}
-\BIBentryALTinterwordspacing
 M.~Catalano, G.~Grioli, E.~Farnioli, A.~Serio, C.~Piazza, and A.~Bicchi,
   ``Adaptive synergies for the design and control of the pisa/iit softhand,''
   \emph{The International Journal of Robotics Research}, vol.~33, no.~5, pp.
-  768--782, 2014. [Online]. Available:
-  \url{https://doi.org/10.1177/0278364913518998}
-\BIBentrySTDinterwordspacing
+  768--782, 2014.
+
+\bibitem{garrett}
+J.~W. Garrett, ``The adult human hand: Some anthropometric and biomechanical
+  considerations,'' \emph{Human Factors}, vol.~13, no.~2, pp. 117--131, 1971.
 
 \bibitem{humanbody}
 R.~Chandler, C.~Clauser, J.~McConville, H.~Reynolds, and J.~Young,
